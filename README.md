@@ -1,3 +1,4 @@
+
 # AngularJS - Testing Article
 This is a helper repository which is designed to be used alongside the blog article on yearofmoo.com.
 
