@@ -1,0 +1,90 @@
+2016-05-19 14:32:08 - INFO  --> UserController:changePassword#{"status":"success","status_code":"200","msg":"Password updated successfully. Please check your mail."} 
+2016-05-19 14:32:32 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"banneradmin Logging in successfully!"} 
+2016-05-19 14:32:32 - INFO  --> UserController:LoginCheck#{"login_session_id":"4eel959o57i8jv724qmcl6dt84","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:32:38 - INFO  --> UserController:LoginCheck#{"login_session_id":"4eel959o57i8jv724qmcl6dt84","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:32:38 - INFO  --> UserController:findAll#{"status":"success","status_code":"200","msg":"Records found successfully!"} 
+2016-05-19 14:32:40 - INFO  --> UserController:LoginCheck#{"login_session_id":"4eel959o57i8jv724qmcl6dt84","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:32:41 - INFO  --> StoreController:getStoresDeliveries#{"status":"error","status_code":"400","msg":"Storelist retrieved successfully!"} 
+2016-05-19 14:32:42 - INFO  --> UserController:LoginCheck#{"login_session_id":"4eel959o57i8jv724qmcl6dt84","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:32:42 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-19 14:32:44 - INFO  --> UserController:LoginCheck#{"login_session_id":"4eel959o57i8jv724qmcl6dt84","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:32:44 - INFO  --> CampaignController:getCampaings#{"status":"success","status_code":"200","msg":"Campaings retrieved successfully!"} 
+2016-05-19 14:32:46 - INFO  --> UserController:LoginCheck#{"login_session_id":"4eel959o57i8jv724qmcl6dt84","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:32:46 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-05-19 14:32:46 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-19 14:32:46 - INFO  --> UserController:LoginCheck#{"login_session_id":"4eel959o57i8jv724qmcl6dt84","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:33:06 - INFO  --> UserController:changePassword#{"status":"success","status_code":"200","msg":"Password updated successfully. Please check your mail."} 
+2016-05-19 14:36:19 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"banneradmin Logging in successfully!"} 
+2016-05-19 14:36:19 - INFO  --> UserController:LoginCheck#{"login_session_id":"96bmn9klm7apkjfcggofkd3sl0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:36:28 - INFO  --> UserController:LoginCheck#{"login_session_id":"96bmn9klm7apkjfcggofkd3sl0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:36:28 - INFO  --> CampaignController:getCampaings#{"status":"success","status_code":"200","msg":"Campaings retrieved successfully!"} 
+2016-05-19 14:36:29 - INFO  --> UserController:LoginCheck#{"login_session_id":"96bmn9klm7apkjfcggofkd3sl0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:36:29 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-19 14:36:30 - INFO  --> UserController:LoginCheck#{"login_session_id":"96bmn9klm7apkjfcggofkd3sl0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:36:30 - INFO  --> UserController:findAll#{"status":"success","status_code":"200","msg":"Records found successfully!"} 
+2016-05-19 14:36:32 - INFO  --> UserController:Logout#{"status":"success","status_code":"200","msg":" User logout successfully.."} 
+2016-05-19 14:36:59 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"badmin Logging in successfully!"} 
+2016-05-19 14:36:59 - INFO  --> UserController:LoginCheck#{"login_session_id":"g88k8ea5s0qjt4io12jjqd7dk1","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-19 14:36:59 - INFO  --> UserController:LoginCheck#{"login_session_id":"g88k8ea5s0qjt4io12jjqd7dk1","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:36:59 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-19 14:37:07 - INFO  --> UserController:LoginCheck#{"login_session_id":"g88k8ea5s0qjt4io12jjqd7dk1","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:37:07 - INFO  --> CampaignController:getCampaings#{"status":"success","status_code":"200","msg":"Campaings retrieved successfully!"} 
+2016-05-19 14:37:08 - INFO  --> UserController:LoginCheck#{"login_session_id":"g88k8ea5s0qjt4io12jjqd7dk1","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:37:09 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-05-19 14:37:09 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-19 14:37:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"g88k8ea5s0qjt4io12jjqd7dk1","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:37:11 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-19 14:37:13 - INFO  --> UserController:LoginCheck#{"login_session_id":"g88k8ea5s0qjt4io12jjqd7dk1","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:37:13 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-19 14:38:02 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-05-19 14:38:07 - INFO  --> UserController:Logout#{"status":"success","status_code":"200","msg":" User logout successfully.."} 
+2016-05-19 14:38:22 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"banneradmin Logging in successfully!"} 
+2016-05-19 14:38:22 - INFO  --> UserController:LoginCheck#{"login_session_id":"ccpbidv7lmt3ahci2v6lh5r3t3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:38:27 - INFO  --> UserController:LoginCheck#{"login_session_id":"ccpbidv7lmt3ahci2v6lh5r3t3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:38:28 - INFO  --> UserController:findAll#{"status":"success","status_code":"200","msg":"Records found successfully!"} 
+2016-05-19 14:38:34 - INFO  --> UserController:LoginCheck#{"login_session_id":"ccpbidv7lmt3ahci2v6lh5r3t3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:38:34 - INFO  --> CampaignController:getCampaings#{"status":"success","status_code":"200","msg":"Campaings retrieved successfully!"} 
+2016-05-19 14:38:35 - INFO  --> UserController:LoginCheck#{"login_session_id":"ccpbidv7lmt3ahci2v6lh5r3t3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:38:35 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-05-19 14:38:35 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-19 14:40:22 - INFO  --> UserController:LoginCheck#{"login_session_id":"ccpbidv7lmt3ahci2v6lh5r3t3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:40:22 - INFO  --> UserController:findAll#{"status":"success","status_code":"200","msg":"Records found successfully!"} 
+2016-05-19 14:40:40 - INFO  --> UserController:EmailValid#{"status":"success","status_code":"200","isValid":true} 
+2016-05-19 14:41:37 - INFO  --> UserController:LoginCheck#{"login_session_id":"ccpbidv7lmt3ahci2v6lh5r3t3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:41:37 - INFO  --> StoreController:getStoresDeliveries#{"status":"success","status_code":"400","msg":"Storelist retrieved successfully!"} 
+2016-05-19 14:41:43 - INFO  --> UserController:checkUnique#{"status":"success","status_code":"200","isValid":true} 
+2016-05-19 14:43:13 - INFO  --> UserController:LoginCheck#{"login_session_id":"ccpbidv7lmt3ahci2v6lh5r3t3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:43:13 - INFO  --> UserController:findAll#{"status":"success","status_code":"200","msg":"Records found successfully!"} 
+2016-05-19 14:43:20 - INFO  --> UserController:EmailValid#{"status":"success","status_code":"200","isValid":true} 
+2016-05-19 14:43:32 - INFO  --> UserController:EmailValid#{"status":"success","status_code":"200","isValid":true} 
+2016-05-19 14:45:26 - INFO  --> UserController:LoginCheck#{"login_session_id":"ccpbidv7lmt3ahci2v6lh5r3t3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:45:26 - INFO  --> StoreController:getStoresDeliveries#{"status":"success","status_code":"200","msg":"Storelist retrieved successfully!"} 
+2016-05-19 14:45:30 - INFO  --> UserController:checkUnique#{"status":"success","status_code":"200","isValid":true} 
+2016-05-19 14:48:06 - INFO  --> UserController:LoginCheck#{"login_session_id":"ccpbidv7lmt3ahci2v6lh5r3t3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-19 14:48:06 - INFO  --> UserController:LoginCheck#{"login_session_id":"ccpbidv7lmt3ahci2v6lh5r3t3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:48:07 - INFO  --> UserController:findAll#{"status":"success","status_code":"200","msg":"Records found successfully!"} 
+2016-05-19 14:48:32 - INFO  --> UserController:EmailValid#{"status":"success","status_code":"200","isValid":true} 
+2016-05-19 14:48:43 - INFO  --> UserController:EmailValid#{"status":"success","status_code":"200","isValid":true} 
+2016-05-19 14:48:55 - INFO  --> UserController:Logout#{"status":"success","status_code":"200","msg":" User logout successfully.."} 
+2016-05-19 14:49:11 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"badmin Logging in successfully!"} 
+2016-05-19 14:49:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"dcjhrufqp02kbtmnu7mb7ri3i2","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-19 14:49:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"dcjhrufqp02kbtmnu7mb7ri3i2","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:49:11 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-19 14:52:38 - INFO  --> UserController:LoginCheck#{"login_session_id":"dcjhrufqp02kbtmnu7mb7ri3i2","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-19 14:52:38 - INFO  --> UserController:LoginCheck#{"login_session_id":"dcjhrufqp02kbtmnu7mb7ri3i2","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:52:39 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-19 14:52:43 - INFO  --> UserController:Logout#{"status":"success","status_code":"200","msg":" User logout successfully.."} 
+2016-05-19 14:52:50 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"banneradmin Logging in successfully!"} 
+2016-05-19 14:52:51 - INFO  --> UserController:LoginCheck#{"login_session_id":"sju3o4pj1d6naa8qibf9he8f42","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:54:07 - INFO  --> UserController:Logout#{"status":"success","status_code":"200","msg":" User logout successfully.."} 
+2016-05-19 14:54:15 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"banneradmin Logging in successfully!"} 
+2016-05-19 14:54:15 - INFO  --> UserController:LoginCheck#{"login_session_id":"p6gnkhqr1p4q436no6geenoos4","status":"error","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:55:22 - INFO  --> UserController:Logout#{"status":"success","status_code":"200","msg":" User logout successfully.."} 
+2016-05-19 14:55:30 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"badmin Logging in successfully!"} 
+2016-05-19 14:55:30 - INFO  --> UserController:LoginCheck#{"login_session_id":"rsa4284jf13chccdbg4vr1av96","status":"error","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-19 14:55:30 - INFO  --> UserController:LoginCheck#{"login_session_id":"rsa4284jf13chccdbg4vr1av96","status":"error","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:55:30 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-19 14:56:52 - INFO  --> UserController:Logout#{"status":"success","status_code":"200","msg":" User logout successfully.."} 
+2016-05-19 14:57:58 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"banneradmin Logging in successfully!"} 
+2016-05-19 14:57:58 - INFO  --> UserController:LoginCheck#{"login_session_id":"5v6icj4a2odev5jh4u4fjlgrt1","status":"error","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-19 14:58:18 - INFO  --> UserController:changePassword#{"status":"success","status_code":"200","msg":"Password updated successfully. Please check your mail."} 

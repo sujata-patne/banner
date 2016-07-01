@@ -1,0 +1,18 @@
+{
+  "name": "AngularJS Directive for multiple file upload",
+  "version": "0.0.1",
+  "author": "Wender Lima",
+  "description": "AngularJS directive for file upload with no dependencies, just HTML5 and pure javascript",
+  "dependencies": {},
+  "homepage": "https://github.com/wender/angular-multiple-file-upload",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "4a828fe8ea982002cd97d447b0c70a009aa320a0"
+  },
+  "_source": "git://github.com/wender/angular-multiple-file-upload.git",
+  "_target": "^0.0.1",
+  "_originalSource": "angular-multiple-file-upload",
+  "_direct": true
+}

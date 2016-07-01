@@ -1,0 +1,56 @@
+<?php
+use VOP\Utils\PdoUtils;
+
+require_once APP.'Models/BaseModel.php';
+require_once APP.'Utils/PdoUtils.php';
+
+/**
+ * Created by PhpStorm.
+ * User: sujata.patne
+ * Date: 18-01-2016
+ * Time: 12:17
+ */
+class BannerImage extends BaseModel {
+    public $table_id;
+
+    public $table_image_name;
+    public $table_banner_id;
+    public $table_width;
+    public $table_height;
+    public $table_file_path;
+    
+    public $table_created_on;
+    public $table_created_by;
+    public $table_modified_by;
+    public $scenario;
+    public $table_modified_on;
+    public $primary_column = "id";
+    public $options = array(); 
+    public function __construct($options= array()) {
+       
+        $this->scenario = 'insert';
+ //       $this->table_is_active = 1; 
+        
+    $this->options = $options; 
+     
+   }
+
+   
+    public function tableName()
+    {
+        return "banner_images_mapping";
+    }
+   
+   
+    public function validateInputParam($jsonObj) {
+        $requiredProps = array('storeId');
+
+        $message = $this->hasRequiredProperties($jsonObj, $requiredProps);
+        return $message;
+    }
+    
+    
+    
+
+    
+}

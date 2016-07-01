@@ -1,0 +1,234 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span ng-if="banner.scenario == 'insert'">Add Banner</span>
+                <span ng-if="banner.scenario == 'update'">Update Banner</span>            
+                <a href="javascript:void(0)" class="pull-right" ng-click="goToBanners()" ><i class="glyphicon glyphicon-arrow-left"></i> Back to banners list</a>
+            </div>
+            <div class="panel-body">
+                <form name="bannerFrm" ng-submit="saveBanner(bannerFrm)"  enctype="multipart/form-data"  novalidate >
+                    
+                    <span ng-if="banner.scenario=='update'" ng-init="bannerFrm.submitted='true'"></span>
+                    
+                    <div class="col-md-6">
+                        <div class="form-group row"> 
+                            <span class="col-md-4">     
+                                <label >Select Client<span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">  
+                                <select ng-disabled="banner.scenario =='update'"  ng-change="clientChange()"  name="banner_clients" class="form-control"  ng-model="banner.clients" ng-options="x.client_name  for x in clientList track by x.id" required>
+                                    <option value="" selected="selected">Select Client</option>
+                                </select>
+                                <span ng-if="bannerFrm.banner_clients.$invalid && bannerFrm.banner_clients.$dirty || bannerFrm.submitted">
+                                    <span ng-if="bannerFrm.banner_clients.$error.required" class="error">Clients is required.</span>
+                                </span>
+
+                            </span>
+                        </div>
+
+
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Select Delivery Channel<span class="error"> *</span></label>
+                            </span>
+
+                            <span class="col-md-8">  
+                                <select  ng-disabled="banner.scenario =='update'"    ng-change="changeDeliveryChannel()" name="banner_devivery_channel" class="form-control"  ng-model="banner.channels" ng-options="x.cd_display_name  for x in storesList track by x.cd_id" required>
+                                    <option value="" selected="selected">Select Delivery Channel</option>
+                                </select>
+
+                                <span ng-if="bannerFrm.banner_devivery_channel.$invalid && bannerFrm.banner_devivery_channel.$dirty || bannerFrm.submitted">
+                                    <span ng-if="bannerFrm.banner_devivery_channel.$error.required" class="error">Delivery channel is required.</span>
+                                </span>
+                            </span>
+                        </div>
+
+                        <div class="form-group row">
+
+                            <span class="col-md-4">     
+                                <label >Select Campaign<span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">  
+                                <select  ng-disabled="banner.scenario =='update'"  ng-change="campaignChange()"  name="banner_campaign" class="form-control"  ng-model="banner.campaign" ng-options="x.campaign_name  for x in campaignList track by x.id" required>
+                                    <option value="" selected="selected">Select Campaign</option>
+                                </select>
+
+                                <span ng-if="bannerFrm.banner_campaign.$invalid && bannerFrm.banner_campaign.$dirty || bannerFrm.submitted">
+                                    <span ng-if="bannerFrm.banner_campaign.$error.required" class="error">Campaign is required.</span>
+                                </span>
+
+                            </span>
+                        </div>
+
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label > Banner Name<span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">     
+                                <input  ng-disabled="banner.scenario =='update'"  type="text" name="banner_name" class="form-control"  placeholder="Banner Name" ng-model="banner.name" required ng-maxlength="49" data-unique-ness tablename="banners" columnname="banner_name" scenario="{{banner.scenario}}" object-id="{{banner.id}}">
+                                <span ng-if="bannerFrm.banner_name.$invalid && bannerFrm.banner_name.$dirty || bannerFrm.submitted">
+                                    <span ng-if="bannerFrm.banner_name.$error.required" class="error">Banner name is required.</span>
+                                    <span ng-if="bannerFrm.banner_name.$error.uniqueNess" class="error">Banner name is already used.</span>          
+                                    <span ng-if="bannerFrm.banner_name.$error.maxlength && bannerFrm.submitted" class="error"> Name must be less than 50 characters</span>                                                                       
+                                </span>
+                            </span>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Start Date<span class="error"> *</span></label>
+                            </span>
+                            <div class="col-md-8"> 
+                                <input datetime-picker  data-date-format="{{getDateFormatString()}}" readonly="true" type="text" name="banner_start_date" class="form-control datetimepicker"  placeholder="Start Date" ng-model="banner.start_date" data-scenario="{{banner.scenario}}" required future-date-only>
+                                <span ng-if="bannerFrm.banner_start_date.$invalid && bannerFrm.banner_start_date.$dirty || bannerFrm.submitted">
+                                    <span ng-if="bannerFrm.banner_start_date.$error.required" class="error"> Start date is required.</span>
+                                    <span ng-if="bannerFrm.banner_start_date.$error.elementLength" class="error">Start date is invalid.</span>
+                                    <span ng-if="bannerFrm.banner_start_date.$touched && bannerFrm.banner_start_date.$error.futureonly" class="error">Start date should  be future date only.</span>
+                                </span>
+
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >End Date<span class="error"> *</span></label>
+                            </span>
+                            <div class="col-md-8"> 
+                                <input datetime-picker  data-date-format="{{getDateFormatString()}}" readonly="true" type="text" name="banner_end_date" class="form-control datetimepicker"  placeholder="End Date" ng-model="banner.end_date" required  chek-min-date compare='banner.start_date'>
+                                <span ng-if="bannerFrm.banner_end_date.$invalid && bannerFrm.banner_end_date.$dirty || bannerFrm.submitted">
+                                    <span ng-if="bannerFrm.banner_end_date.$error.required" class="error"> End date is required.</span>
+                                    <span ng-if="bannerFrm.banner_end_date.$error.elementLength" class="error">End date is invalid.</span>
+                                </span>
+                                <span ng-if="bannerFrm.banner_end_date.$error.minDate" class="error">End date should not be previous than start date.</span>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Click Action <span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">     
+                                <input type="url" name="click_action_url" class="form-control"  placeholder="Click Action Url" ng-model="banner.click_action_url" required   ng-maxlength="399" >
+                                <span ng-if="bannerFrm.click_action_url.$invalid && bannerFrm.click_action_url.$dirty || bannerFrm.submitted">
+                                    <span ng-if="bannerFrm.click_action_url.$error.required" class="error">Banner Click Action is required.</span>
+                                    <span ng-if="bannerFrm.click_action_url.$error.url" class="error">Click action URL is invalid.</span>
+                                    <span ng-if="bannerFrm.click_action_url.$error.maxlength && bannerFrm.submitted" class="error"> URL must be less than 400 characters</span>                                   
+ 
+                                </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+
+                        
+                        <input ngf-min-size='1000' ngf-max-size='1000' type="file" data-ngf-select  ng-model="files" id="files" name="files" multiple
+                               onchange="angular.element(this).scope().getFileDetails(this)" image-files-only/>
+                        <span class="help-block">Only files with jpg, gif, jpeg, png are supported.</span>
+                        <div>
+                            <span ng-if="bannerFrm.files.$invalid && bannerFrm.files.$dirty || bannerFrm.submitted">
+                                <span ng-if="bannerFrm.files.$error.invalidFile" class="error">
+                                     Please select only valid image files. 
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <legend>
+                                        Banners 
+                                        <a ng-if="banner.images.items.length >0" ng-click="removeAllBaners(banner.id)" class="btn btn-danger pull-right btn-xs">Remove All <i class="glyphicon glyphicon-trash"></i></a>
+                                    </legend>
+
+                                    <div class="col-md-3 panel" ng-repeat="img in banner.images.items">
+                                        <a title="{{img.image_name}}" ng-bind="img.image_name | limitTo:20"></a>
+                                        
+                                        <span ng-if="img.image_name.length> 20">...</span>
+                                        
+                                            <a class="btn btn-danger btn-xs pull-right" alt="Remove" title="Remove" href="" ng-click="removeBannerImage(img.id)"><i  class="glyphicon glyphicon-remove"></i></a>
+                                            <span class="help-block">
+                                                {{img.width}} X {{img.height}}
+                                            </span>
+                                            <img  class="img-thumbnail" ng-src="{{getBannerImage(img.image_name)}}">
+                                            
+                                    </div> 
+
+
+                                </fieldset>      
+
+                            </div>
+                        </div>
+
+
+                        <!--ADD A PROGRESS BAR ELEMENT.-->
+                        <!--        <p><progress id="pro" value="0"></progress></p>-->
+
+                        <div class="cler clearfix"></div>
+                        <div class="clearfix row">
+                            <div class=" col-md-2 pull-right">
+                                <button type="submit"  class="btn btn-success">Submit</button>
+                                
+                                <button ng-if="banner.scenario == 'insert'" type="reset" class="btn btn-warning" ng-click="reset(bannerFrm)">Reset</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" ng-if="grids">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading" data-ng-bind="grid.title"></div>
+            <div class="panel-body">
+
+
+                <div ng-if=" managers.length <= 0" class="help-block center-block"> No managers found!</div>
+
+                <table ng-if=" managers.length > 0" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <td>Sr.</td>
+                            <td>Mgr. Name</td>
+                            <td>Email Id</td>
+                            <td>Stores</td>
+                            <td>Actions</td>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr ng-repeat="manager in managers">
+                            <td ng-bind="$index + 1"></td>
+                            <td ng-bind="manager.name"></td>
+                            <td ng-bind="manager.email"></td>
+                            <td ng-bind="manager.mobile"></td>
+                            <td>
+
+
+                                <a class="btn btn-info btn-xs" ng-click="updateManager($index)"><i class="glyphicon glyphicon-pencil"></i></a>
+                                <a class="btn btn-danger btn-xs" ng-click="removeManager($index)"><i class="glyphicon glyphicon-ban-circle danger"></i></a>
+
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

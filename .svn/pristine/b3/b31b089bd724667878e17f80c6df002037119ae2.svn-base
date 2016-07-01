@@ -1,0 +1,41 @@
+directives.directive('handsetGroupForm', ['$appLocation', 'Store', 'Client', 'UserService', 'User', '$location','$uibModal','alertService','Campaign','Banner', function ($appLocation, Store, Client, UserService, User, $location,$uibModal,alertService,Campaign,Banner) {
+        return {
+            templateUrl: CONFIG.prepareViewTemplateUrl('directives/handsetgroup'),
+            controller: function ($scope)
+            {
+               
+                Banner.getHandsetGroup(function(res){                    
+                $scope.handsetGroupList = res.data.message.handsetGroupDetails.items;
+                });
+
+                $scope.hansetCriteria ={};
+                
+                $scope.getHandsets = function()
+                {
+                    Banner.getHandsetFilter({},function(res){
+                        $scope.handsetList = res.data.message.handsetDetails.items;
+                    });
+                   
+                    Banner.getHandsetGroup(function(res){                    
+                        $scope.handsetBrandList = res.data.message.handsetGroupDetails.items;
+                    });
+
+
+                    
+                }
+
+
+                $scope.handsetGroupChange = function()
+                {
+                    $scope.getHandsets();
+                    
+                };
+
+
+               
+               
+               
+
+            }
+        };
+    }]);

@@ -1,0 +1,63 @@
+
+array (
+  0 => 
+  array (
+    'st_id' => '1',
+    'st_name' => 'Wakau',
+  ),
+  1 => 
+  array (
+    'st_id' => '2',
+    'st_name' => 'Jet',
+  ),
+  2 => 
+  array (
+    'st_id' => '3',
+    'st_name' => 'My Daily store',
+  ),
+  3 => 
+  array (
+    'st_id' => '4',
+    'st_name' => 'comedyclub_UAE',
+  ),
+  4 => 
+  array (
+    'st_id' => '5',
+    'st_name' => 'studioxhotties_za',
+  ),
+  5 => 
+  array (
+    'st_id' => '6',
+    'st_name' => 'droid',
+  ),
+  6 => 
+  array (
+    'st_id' => '7',
+    'st_name' => 'Comedyclub_eg',
+  ),
+  7 => 
+  array (
+    'st_id' => '8',
+    'st_name' => 'Comedyclub_QAR',
+  ),
+  8 => 
+  array (
+    'st_id' => '9',
+    'st_name' => 'studiox_th',
+  ),
+  9 => 
+  array (
+    'st_id' => '10',
+    'st_name' => 'studiox',
+  ),
+  10 => 
+  array (
+    'st_id' => '11',
+    'st_name' => 'THE LOL CLUB',
+  ),
+  11 => 
+  array (
+    'st_id' => '12',
+    'st_name' => 'muzibo',
+  ),
+)

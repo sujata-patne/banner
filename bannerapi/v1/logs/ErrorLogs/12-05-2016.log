@@ -1,0 +1,7 @@
+2016-05-12 6:35:10 - INFO  --> UserController:findByPk#{"status":"error","status_code":"400","msg":" Start and End date should be within limit of Client limits."} 
+2016-05-12 6:35:23 - INFO  --> UserController:findByPk#{"status":"error","status_code":"400","msg":" Start and End date should be within limit of Client limits."} 
+2016-05-12 6:35:34 - INFO  --> UserController:findByPk#{"status":"error","status_code":"400","msg":" Start and End date should be within limit of Client limits."} 
+2016-05-12 6:35:48 - INFO  --> UserController:findByPk#{"status":"error","status_code":"400","msg":" Start and End date should be within limit of Client limits."} 
+2016-05-12 6:36:12 - INFO  --> UserController:findByPk#{"status":"error","status_code":"400","msg":" Start and End date should be within limit of Client limits."} 
+2016-05-12 10:42:22 - INFO  --> BannerController:create#{"status":"error","status_code":"400","msg":"Banner date should be in between  from 07\/05\/2016 17:35:00 to 14\/05\/2016 17:35:00"} 
+2016-05-12 10:43:11 - INFO  --> BannerController:create#{"status":"error","status_code":"400","msg":"Banner date should be in between  from 07\/05\/2016 17:35:00 to 14\/05\/2016 17:35:00"} 

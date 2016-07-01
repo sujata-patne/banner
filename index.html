@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html data-ng-app="App" data-ng-controller="AppCtrl">
+    <head>
+        <title>Icon Banner Manage</title>
+        <link rel="stylesheet" type="text/css" href="./app/assets/app.css" />
+  </head>
+
+    <body data-status="{{ status}}" class="ng-cloak" data-ng-cloak="true" >
+        <div data-main-navigation-bar></div>   
+        
+        <div class="container" id="ng-view">
+            <alert></alert>
+            
+            <div class="loading-spiner-holder center-block" data-loading >
+                <div class="loading-spiner col-md-1 col-md-offset-5" >
+                </div>
+            </div>
+
+                <div data-ng-view></div>
+            
+        </div>
+        <div ng-if="showFooter" data-main-page-footer></div>
+        
+<!--        <script src="libs/jquery-2.0.0.min.js" type="text/javascript"></script>
+      <script src="./assets/bootstrap.min.js" type="text/javascript"></script>-->
+        
+        <script src="./app/assets/app.js"></script>
+    </body>
+</html>

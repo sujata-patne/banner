@@ -1,0 +1,528 @@
+[03-May-2016 11:26:05 Asia/Calcutta] PHP Fatal error:  Call to undefined method BannerController::getTimeslotList() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\index.php on line 79
+[03-May-2016 11:26:05 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[03-May-2016 11:26:05 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[03-May-2016 11:26:05 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[03-May-2016 11:26:22 Asia/Calcutta] PHP Fatal error:  Call to undefined method BannerController::getTimeslotList() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\index.php on line 79
+[03-May-2016 11:26:22 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[03-May-2016 11:26:22 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[03-May-2016 11:26:22 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[03-May-2016 15:36:47 Asia/Calcutta] PHP Fatal error:  Call to undefined method BannerController::getTimeslotList() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\index.php on line 79
+[03-May-2016 15:36:47 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[03-May-2016 15:36:47 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[03-May-2016 15:36:47 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[03-May-2016 16:04:05 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:04:05 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:04:05 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:04:05 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:04:17 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:04:17 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:04:17 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:04:17 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:04:40 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:04:40 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:04:40 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:04:40 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:04:54 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:04:54 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:04:54 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:04:54 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:05:37 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:05:37 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:05:37 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:05:37 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:05:52 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:05:52 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:05:52 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:05:52 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:06:39 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:06:39 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:06:39 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:06:39 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:12:05 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:12:05 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:12:05 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:12:05 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:12:07 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:12:07 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:12:07 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:12:07 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:12:10 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:12:10 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:12:10 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:12:10 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:17:13 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:17:13 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:17:13 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:17:13 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:27:05 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:27:05 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:27:05 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:27:05 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:27:12 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:27:12 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:27:12 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:27:12 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:27:41 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:27:41 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:27:41 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:27:41 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:30:00 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:30:00 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:30:00 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:30:00 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:30:26 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:30:26 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:30:26 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:30:26 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:32:35 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:32:35 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:32:35 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:32:35 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:34:47 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:34:47 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:34:47 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:34:47 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:41:49 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:41:49 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:41:49 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:41:49 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:41:55 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:41:55 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:41:55 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:41:55 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:42:10 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:42:10 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:42:10 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:42:10 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:42:16 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:42:16 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:42:16 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:42:16 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:42:23 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:42:23 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:42:23 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:42:23 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:42:54 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:42:54 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 109
+[03-May-2016 16:42:54 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:42:54 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:44:04 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 16:44:04 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 191
+[03-May-2016 17:21:10 Asia/Calcutta] PHP Notice:  Undefined variable: 0 in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 196
+[03-May-2016 17:21:21 Asia/Calcutta] PHP Notice:  Undefined variable: 0 in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 196
+[03-May-2016 17:22:46 Asia/Calcutta] PHP Notice:  Undefined variable: 0 in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 196
+[03-May-2016 17:24:51 Asia/Calcutta] PHP Notice:  Undefined variable: 0 in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 196
+[03-May-2016 17:25:40 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 110
+[03-May-2016 17:25:40 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 110
+[03-May-2016 17:25:40 Asia/Calcutta] PHP Notice:  Undefined variable: 0 in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 196
+[03-May-2016 17:26:09 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\User.php on line 110
+[03-May-2016 17:26:09 Asia/Calcutta] PHP Notice:  Undefined variable: 0 in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 196
+[03-May-2016 17:26:29 Asia/Calcutta] PHP Notice:  Undefined variable: 0 in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Daos\BaseDao.php on line 196
+[04-May-2016 10:25:58 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 512
+[04-May-2016 12:15:34 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[04-May-2016 12:15:34 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[04-May-2016 12:15:34 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[04-May-2016 19:16:40 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 107
+[04-May-2016 19:17:41 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 107
+[04-May-2016 19:19:08 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 107
+[04-May-2016 19:20:07 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 107
+[04-May-2016 19:20:43 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 107
+[04-May-2016 19:21:29 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 107
+[05-May-2016 09:51:50 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 111
+[05-May-2016 09:52:32 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 111
+[05-May-2016 09:53:37 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 111
+[05-May-2016 09:55:54 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 111
+[05-May-2016 09:56:38 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 111
+[05-May-2016 09:58:33 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 111
+[05-May-2016 09:59:46 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 111
+[05-May-2016 10:01:36 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 111
+[05-May-2016 10:01:36 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 112
+[05-May-2016 10:08:50 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 111
+[05-May-2016 10:08:50 Asia/Calcutta] PHP Notice:  Undefined index: LoggedUser in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\UserController.php on line 112
+[05-May-2016 10:40:01 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 10:40:01 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 10:40:01 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 16:16:06 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 16:16:06 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 16:16:06 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 16:33:27 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 16:33:27 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 16:33:27 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 16:34:19 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 16:34:19 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 16:34:19 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:27:36 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:27:36 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:27:36 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:38:45 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:38:45 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:38:45 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:39:17 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:39:17 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:39:17 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:42:59 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:42:59 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 17:42:59 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[05-May-2016 18:50:49 Asia/Calcutta] PHP Notice:  Undefined property: stdClass::$timeslot in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 976
+[05-May-2016 18:50:49 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 976
+[05-May-2016 18:50:49 Asia/Calcutta] PHP Notice:  Undefined variable: multiselectData in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 990
+[05-May-2016 18:50:49 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 990
+[05-May-2016 18:51:46 Asia/Calcutta] PHP Notice:  Undefined property: stdClass::$timeslot in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 976
+[05-May-2016 18:51:46 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 976
+[05-May-2016 18:51:46 Asia/Calcutta] PHP Notice:  Undefined variable: multiselectData in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 990
+[05-May-2016 18:51:46 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 990
+[05-May-2016 18:52:15 Asia/Calcutta] PHP Notice:  Undefined property: stdClass::$timeslot in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 976
+[05-May-2016 18:52:15 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 976
+[05-May-2016 18:52:15 Asia/Calcutta] PHP Notice:  Undefined variable: multiselectData in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 990
+[05-May-2016 18:52:15 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 990
+[05-May-2016 18:52:26 Asia/Calcutta] PHP Notice:  Undefined property: stdClass::$timeslot in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 976
+[05-May-2016 18:52:26 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 976
+[05-May-2016 18:52:26 Asia/Calcutta] PHP Notice:  Undefined variable: multiselectData in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 990
+[05-May-2016 18:52:26 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 990
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 953
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 957
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 957
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 958
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 960
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 961
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 965
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 976
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 976
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Undefined variable: multiselectData in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 990
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 990
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 993
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 993
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1029
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1036
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1036
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1057
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Warning:  session_start(): The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\Helper.php on line 40
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1065
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1065
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1078
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Warning:  Unknown: The session id is too long or contains illegal characters, valid characters are a-z, A-Z, 0-9 and '-,' in Unknown on line 0
+[05-May-2016 18:52:31 Asia/Calcutta] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (C:\xampp\tmp) in Unknown on line 0
+[08-May-2016 09:29:02 Asia/Calcutta] PHP Fatal error:  Call to undefined method BannerController::getOperatorBySite() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\index.php on line 79
+[08-May-2016 09:29:20 Asia/Calcutta] PHP Fatal error:  Call to undefined method BannerController::getOperatorBySite() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\index.php on line 79
+[08-May-2016 17:29:02 Asia/Calcutta] PHP Fatal error:  Call to undefined method BannerController::getOperatorBySite() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\index.php on line 79
+[08-May-2016 17:53:47 Asia/Calcutta] PHP Fatal error:  Call to undefined method BannerController::getOperatorBySite() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\index.php on line 79
+[08-May-2016 17:56:30 Asia/Calcutta] PHP Fatal error:  Call to undefined method BannerController::getOperatorBySite() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\index.php on line 79
+[08-May-2016 18:19:11 Asia/Calcutta] PHP Fatal error:  Call to undefined method BannerController::getOperatorBySite() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\index.php on line 79
+[10-May-2016 12:38:44 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1140
+[10-May-2016 12:38:51 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1140
+[10-May-2016 12:39:45 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1140
+[10-May-2016 12:39:48 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1140
+[10-May-2016 12:39:53 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1140
+[10-May-2016 12:46:16 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1140
+[10-May-2016 12:46:17 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1140
+[10-May-2016 13:08:08 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1140
+[10-May-2016 13:09:09 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1135
+[10-May-2016 13:09:11 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1135
+[10-May-2016 13:09:12 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1135
+[10-May-2016 13:09:16 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1135
+[10-May-2016 13:09:17 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers/../../../app/downloads/banner_list.xls): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1135
+[12-May-2016 08:40:39 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 337
+[12-May-2016 08:40:39 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 338
+[12-May-2016 08:40:44 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 337
+[12-May-2016 08:40:44 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 338
+[12-May-2016 08:41:18 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 337
+[12-May-2016 08:41:18 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 338
+[12-May-2016 08:41:31 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 337
+[12-May-2016 08:41:31 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 338
+[12-May-2016 08:43:38 Asia/Calcutta] PHP Fatal error:  Call to undefined function printr() in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 337
+[13-May-2016 11:32:37 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1100
+[13-May-2016 11:32:37 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1100
+[13-May-2016 11:32:37 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1101
+[13-May-2016 11:46:29 Asia/Calcutta] PHP Notice:  Undefined index: created_on in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1101
+[13-May-2016 11:48:06 Asia/Calcutta] PHP Notice:  Undefined index: created_on in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1101
+[16-May-2016 10:08:14 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:08:14 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:08:14 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[16-May-2016 10:08:14 Asia/Calcutta] PHP Warning:  log() expects at least 1 parameter, 0 given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[16-May-2016 10:09:19 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:09:19 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:09:19 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[16-May-2016 10:09:19 Asia/Calcutta] PHP Warning:  log() expects at least 1 parameter, 0 given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[16-May-2016 10:10:28 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:10:28 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:10:28 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[16-May-2016 10:10:28 Asia/Calcutta] PHP Warning:  log() expects at least 1 parameter, 0 given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[16-May-2016 10:19:05 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:19:05 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:19:05 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[16-May-2016 10:19:05 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, object given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[16-May-2016 10:21:30 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:21:30 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:21:30 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[16-May-2016 10:21:30 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, object given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[16-May-2016 10:22:01 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:22:01 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 220
+[16-May-2016 10:22:01 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[16-May-2016 10:22:01 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, object given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 221
+[19-May-2016 11:25:02 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 48
+[19-May-2016 11:25:02 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 49
+[19-May-2016 11:25:02 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 50
+[19-May-2016 11:25:02 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 54
+[19-May-2016 11:25:02 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 55
+[19-May-2016 11:25:02 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 56
+[19-May-2016 11:25:02 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 57
+[19-May-2016 11:25:07 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 48
+[19-May-2016 11:25:07 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 49
+[19-May-2016 11:25:07 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 50
+[19-May-2016 11:25:07 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 54
+[19-May-2016 11:25:07 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 55
+[19-May-2016 11:25:07 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 56
+[19-May-2016 11:25:07 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 57
+[19-May-2016 11:26:17 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 48
+[19-May-2016 11:26:17 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 49
+[19-May-2016 11:26:17 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 50
+[19-May-2016 11:26:17 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 54
+[19-May-2016 11:26:17 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 55
+[19-May-2016 11:26:17 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 56
+[19-May-2016 11:26:17 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:450) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 57
+[19-May-2016 11:32:05 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 449
+[19-May-2016 11:32:05 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 449
+[19-May-2016 11:32:16 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 449
+[19-May-2016 11:32:16 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 449
+[19-May-2016 11:54:00 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:54:00 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:54:01 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:54:05 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:54:05 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:54:05 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:54:24 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:54:24 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:54:24 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:20 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:20 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:21 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:21 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:21 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:21 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:25 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:25 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:25 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:25 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:25 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 11:55:25 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 82
+[19-May-2016 14:30:09 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:09 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:09 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:09 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:09 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:10 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:10 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:10 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:10 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:10 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:10 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:10 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:10 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:10 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:10 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:10 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:15 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:15 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:15 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:15 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:15 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:15 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:17 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:17 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:17 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:17 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:19 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:19 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:44 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:30:44 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:31:18 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[19-May-2016 14:31:18 Asia/Calcutta] PHP Warning:  fopen(C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\logs\Logs\19-05-2016.log): failed to open stream: No such file or directory in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\KLogger.php on line 60
+[26-May-2016 11:46:55 Asia/Calcutta] PHP Notice:  Undefined index: perPageItems in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 330
+[26-May-2016 11:46:55 Asia/Calcutta] PHP Notice:  Undefined index: perPageItems in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 332
+[26-May-2016 11:46:55 Asia/Calcutta] PHP Notice:  Undefined index: currentPage in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 332
+[06-Jun-2016 11:16:05 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 324
+[06-Jun-2016 11:16:06 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[06-Jun-2016 11:16:06 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 324
+[06-Jun-2016 11:16:10 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 324
+[06-Jun-2016 11:16:10 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 205
+[06-Jun-2016 11:16:11 Asia/Calcutta] PHP Fatal error:  Call to a member function beginTransaction() on null in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Models\BaseModel.php on line 450
+[07-Jun-2016 18:46:19 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1040
+[07-Jun-2016 18:46:19 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, string given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1040
+[07-Jun-2016 18:46:19 Asia/Calcutta] PHP Notice:  Use of undefined constant console - assumed 'console' in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1041
+[07-Jun-2016 18:46:19 Asia/Calcutta] PHP Warning:  log() expects parameter 1 to be double, object given in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php on line 1041
+[07-Jun-2016 19:03:14 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\Helper.php on line 40
+[07-Jun-2016 19:03:14 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\Helper.php on line 40
+[07-Jun-2016 19:03:14 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 48
+[07-Jun-2016 19:03:14 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 49
+[07-Jun-2016 19:03:14 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 50
+[07-Jun-2016 19:03:14 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 54
+[07-Jun-2016 19:03:14 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 55
+[07-Jun-2016 19:03:14 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 56
+[07-Jun-2016 19:03:14 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 57
+[07-Jun-2016 19:03:54 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\Helper.php on line 40
+[07-Jun-2016 19:03:54 Asia/Calcutta] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Utils\Helper.php on line 40
+[07-Jun-2016 19:03:54 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 48
+[07-Jun-2016 19:03:54 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 49
+[07-Jun-2016 19:03:54 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 50
+[07-Jun-2016 19:03:54 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 54
+[07-Jun-2016 19:03:54 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 55
+[07-Jun-2016 19:03:54 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 56
+[07-Jun-2016 19:03:54 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BannerController.php:1041) in C:\xampp\htdocs\akicon\Icon\Modules\bannermanage\bannerapi\v1\Controllers\BaseController.php on line 57
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 62
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 64
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 62
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 64
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 62
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 64
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:03 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:20:13 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 62
+[21-Jun-2016 12:20:13 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:13 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:20:13 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 64
+[21-Jun-2016 12:20:13 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:13 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:20:18 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 62
+[21-Jun-2016 12:20:18 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:18 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:20:18 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 64
+[21-Jun-2016 12:20:18 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:18 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:20:23 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 62
+[21-Jun-2016 12:20:23 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:23 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:20:23 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 64
+[21-Jun-2016 12:20:23 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:20:23 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:21:51 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 62
+[21-Jun-2016 12:21:51 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:21:51 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:21:51 Asia/Calcutta] PHP Notice:  Undefined offset: 7 in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 64
+[21-Jun-2016 12:21:51 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:21:51 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php): failed to open stream: No such file or directory in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 32
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:67
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:67
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php' for inclusion (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 32
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:67
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:67
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:32) in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 82
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:24:55 Asia/Calcutta] PHP   2. header() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:82
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php): failed to open stream: No such file or directory in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 32
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:67
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:67
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php' for inclusion (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 32
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:67
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:67
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:32) in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 82
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:25:03 Asia/Calcutta] PHP   2. header() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:82
+[21-Jun-2016 12:34:19 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php): failed to open stream: No such file or directory in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 33
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php' for inclusion (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 33
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:33) in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 83
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:34:20 Asia/Calcutta] PHP   2. header() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:83
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php): failed to open stream: No such file or directory in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 33
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php' for inclusion (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 33
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:33) in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 83
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:35:02 Asia/Calcutta] PHP   2. header() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:83
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php): failed to open stream: No such file or directory in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 33
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php' for inclusion (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 33
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:33) in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 83
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:35:59 Asia/Calcutta] PHP   2. header() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:83
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php): failed to open stream: No such file or directory in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 33
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php' for inclusion (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 33
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:33) in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 83
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:38:15 Asia/Calcutta] PHP   2. header() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:83
+[21-Jun-2016 12:38:25 Asia/Calcutta] PHP Warning:  include(D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php): failed to open stream: No such file or directory in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 33
+[21-Jun-2016 12:38:25 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:38:25 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:38:25 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:38:25 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:38:25 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:38:25 Asia/Calcutta] PHP Warning:  include(): Failed opening 'D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\BannerapiController.php' for inclusion (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 33
+[21-Jun-2016 12:38:25 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:38:25 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:38:25 Asia/Calcutta] PHP   2. class_exists() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:38:25 Asia/Calcutta] PHP   3. spl_autoload_call() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:68
+[21-Jun-2016 12:38:26 Asia/Calcutta] PHP   4. apiAutoload() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:38:26 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:33) in D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php on line 83
+[21-Jun-2016 12:38:26 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:38:26 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:38:26 Asia/Calcutta] PHP   2. header() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:83
+[21-Jun-2016 12:46:36 Asia/Calcutta] PHP Notice:  Undefined variable: userName in D:\xampp\htdocs\bannermanage\bannerapi\v1\Controllers\UserController.php on line 318
+[21-Jun-2016 12:46:36 Asia/Calcutta] PHP Stack trace:
+[21-Jun-2016 12:46:36 Asia/Calcutta] PHP   1. {main}() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:0
+[21-Jun-2016 12:46:36 Asia/Calcutta] PHP   2. UserController->saveAccountManager() D:\xampp\htdocs\bannermanage\bannerapi\v1\index.php:80

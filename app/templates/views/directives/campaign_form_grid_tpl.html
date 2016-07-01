@@ -1,0 +1,239 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading"> 
+                                <span ng-if="campaign.scenario=='insert'">Add Campaign</span>
+                <span ng-if="campaign.scenario=='update'">Update Campaign</span>
+                <a href="javascript:void(0)" class="pull-right" ng-click="goToCampaign()" ><i class="glyphicon glyphicon-arrow-left"></i> Back to Campaign list</a>                           
+           </div>
+            <div class="panel-body"  data-uib-collapse="isCollapsed">
+                <form name="campaignFrm" ng-submit="saveCampaign(campaignFrm)" novalidate>
+                    <div class="col-md-6">
+                       <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Select Client  <span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">  
+                                
+                                <select ng-change="clientChange()" ng-disabled="campaign.scenario=='update'"  name="campaign_clients" class="form-control"  ng-model="campaign.clients" ng-options="x.client_name  for x in clientList track by x.id" required>
+                                <option value="" selected="selected">Select Client</option>
+                                </select>
+                                <span ng-if="campaignFrm.campaign_clients.$invalid && campaignFrm.campaign_clients.$dirty || campaignFrm.submitted">
+                                   <span ng-if="campaignFrm.campaign_clients.$error.required" class="error">Clients name is required.</span>
+                                </span>
+                                
+                            </span>
+                        </div>
+                        
+                        
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Select Delivery Channel  <span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">  
+
+                                <select ng-disabled="campaign.scenario=='update'"  ng-change="changeDeliveryChannel()" name="campaign_devivery_channel" class="form-control"  ng-model="campaign.channels" ng-options="x.cd_display_name  for x in storesList track by x.cd_id" required>
+                                    <option value="" selected="selected">Select Delivery Channel</option>
+                                </select>
+                                
+                                <span ng-if="campaignFrm.campaign_devivery_channel.$invalid && campaignFrm.campaign_devivery_channel.$dirty || campaignFrm.submitted">
+                                   <span ng-if="campaignFrm.campaign_devivery_channel.$error.required" class="error">Delivery channel name is required.</span>
+                                </span>
+                            </span>
+                        </div>
+                        
+
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label > Campaign Name <span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">     
+                                <input type="text" name="campaign_name" class="form-control"  placeholder="Campaign Name" ng-model="campaign.campaign_name" required data-unique-ness tablename="campaigns" columnname="campaign_name" ng-maxlength="49"  scenario="{{campaign.scenario}}" object-id="{{campaign.id}}"  >
+                                <span ng-if="campaignFrm.campaign_name.$invalid && campaignFrm.campaign_name.$dirty || campaignFrm.submitted">
+                                    <span ng-if="campaignFrm.campaign_name.$error.required" class="error">Campaign name is required.</span>
+                                    <span ng-if="campaignFrm.campaign_name.$error.uniqueNess" class="error">Campaign name is already used.</span>
+                                    <span ng-if="campaignFrm.campaign_name.$error.maxlength && campaignFrm.submitted" class="error">Campaign name must be less than 50 characters</span>
+         
+                                </span>
+                            </span>
+                        </div>
+
+
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Description</label>
+                            </span>
+                            <span class="col-md-8">     
+                                <textarea name="campaing_description" class="form-control"  placeholder="Description" ng-model="campaign.description" ng-maxlength="199"></textarea>
+                                
+                                <span ng-if="campaignFrm.campaing_description.$error.maxlength && campaignFrm.submitted" class="error">Description must be less than 200 characters</span>
+         
+                            </span>
+                        </div>
+
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Start Date <span class="error"> *</span></label>
+                            </span>
+                            <div class="col-md-8"> 
+                                <input datetime-picker  data-date-format="{{getDateFormatString()}}" readonly="true" type="text" name="campaign_start_date" class="form-control datetimepicker"  placeholder="Start Date" ng-model="campaign.start_date" data-scenario="{{campaign.scenario}}" required future-date-only>
+                                <span ng-if="campaignFrm.campaign_start_date.$invalid && campaignFrm.campaign_start_date.$dirty || campaignFrm.submitted">
+                                    <span ng-if="campaignFrm.campaign_start_date.$error.required" class="error"> Start date is required.</span>
+                                    <span ng-if="campaignFrm.campaign_start_date.$error.elementLength" class="error">Start date is invalid.</span>
+                                    <span ng-if="campaignFrm.campaign_start_date.$error.futureonly" class="error">Start date & time should be greater than current date & time.</span>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >End Date <span class="error"> *</span></label>
+                            </span>
+                            <div class="col-md-8"> 
+                                <input datetime-picker  data-date-format="{{getDateFormatString()}}" readonly="true" type="text" name="campaign_end_date" class="form-control datetimepicker"  placeholder="End Date" ng-model="campaign.end_date" required chek-min-date compare='campaign.start_date' >
+                                <span ng-if="campaignFrm.campaign_end_date.$invalid && campaignFrm.campaign_end_date.$dirty || campaignFrm.submitted">
+                                    <span ng-if="campaignFrm.campaign_end_date.$error.required" class="error"> End date is required.</span>
+                                    <span ng-if="campaignFrm.campaign_end_date.$error.elementLength" class="error">End date is invalid.</span>
+                                </span>
+                                <span ng-if="campaignFrm.campaign_end_date.$error.minDate" class="error">End date should not be previous than start date.</span>
+                    
+                                
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label > Total Impressions</label>
+                            </span>
+                            <span class="col-md-8" ng-init="campaign.total_impressions = 100000000">     
+                                <input type="number" name="campaign_total_impressions" class="form-control"  placeholder="Total Impression" ng-model="campaign.total_impressions"  ng-maxlength="10">
+                                <span ng-if="campaignFrm.campaign_total_impressions.$invalid && campaignFrm.campaign_total_impressions.$dirty || campaignFrm.submitted">
+                                    <span ng-if="campaignFrm.campaign_total_impressions.$error.required" class="error">Total impression is required.</span>
+                                    <span ng-if="campaignFrm.campaign_total_impressions.$error.maxlength && campaignFrm.submitted" class="error">Impressions must be less than 10 numbers</span>
+                                    <span ng-if="campaignFrm.campaign_total_impressions.$error.number && campaignFrm.submitted" class="error">Invalid Number</span>
+       
+                                </span>
+                            </span>
+                        </div>
+
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label > Total Clicks</label>
+                            </span>
+                            <span class="col-md-8" ng-init="campaign.total_clicks=10000000">     
+                                <input type="number" name="campaign_total_clicks" class="form-control"  placeholder="Total Clicks" ng-model="campaign.total_clicks" ng-maxlength="10">
+                                <span ng-if="campaignFrm.campaign_total_clicks.$invalid && campaignFrm.campaign_total_clicks.$dirty || campaignFrm.submitted">
+                                    <!--<span ng-if="campaignFrm.campaign_total_clicks.$error.required" class="error">Total Clicks is required.</span>-->
+                                    <span ng-if="campaignFrm.campaign_total_clicks.$error.maxlength && campaignFrm.submitted" class="error">Clicks must be less than 10 numbers</span>
+                                    <span ng-if="campaignFrm.campaign_total_clicks.$error.number && campaignFrm.submitted" class="error">Invalid Number</span>
+                                </span>
+                            </span>
+                        </div>
+                        
+                    
+                    </div>
+
+                    <div class="col-md-6">
+
+            
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Preferred Store <span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">    
+                                <select multiple select  name="campaign_preferred_store" class="form-control"  ng-model="campaign.preferred_store" ng-options="x.st_name  for x in preferedStoresList track by x.st_id" required>
+                                    
+                                </select>
+                                
+                                
+                                <span ng-if="campaignFrm.campaign_preferred_store.$invalid && campaignFrm.campaign_preferred_store.$dirty || campaignFrm.submitted">
+                                    <span ng-if="campaignFrm.campaign_preferred_store.$error.required" class="error"> Preferred store is required.</span>
+                                </span>
+                            </span>
+                        </div>
+                            
+                                           
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Priority <span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">  
+                                <select  name="campaign_priority" class="form-control"  ng-model="campaign.priority" ng-options="x.name  for x in priorities track by x.value" required >
+                                    <option value="" selected="selected">Select Priority</option>
+                                    
+                                </select>
+                                
+                                <span ng-if="campaignFrm.campaign_priority.$invalid && campaignFrm.campaign_priority.$dirty || campaignFrm.submitted">
+                                   <span ng-if="campaignFrm.campaign_priority.$error.required" class="error">Campaign priority is required.</span>
+                                </span>
+                            </span>
+                        </div>
+                        
+
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Instructions</label>
+                            </span>
+                            <span class="col-md-8">     
+                                <textarea rows="7" name="campaing_instructions" class="form-control"  placeholder="If any" ng-model="campaign.instructions"></textarea>
+                            </span>
+                        </div>
+
+
+                        <div class="col-md-6 pull-right">
+                            <button type="submit"  class="btn btn-success">Submit</button>
+                            <button type="reset" class="btn btn-warning" ng-click="reset(campaignFrm)">Reset</button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" ng-if="grids">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading" data-ng-bind="grid.title"></div>
+            <div class="panel-body">
+
+
+                <div ng-if=" managers.length <= 0" class="help-block center-block"> No managers found!</div>
+                    
+                <table ng-if=" managers.length > 0" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <td>Sr.</td>
+                            <td>Mgr. Name</td>
+                            <td>Email Id</td>
+                            <td>Stores</td>
+                            <td>Actions</td>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr ng-repeat="manager in managers">
+                            <td ng-bind="$index + 1"></td>
+                            <td ng-bind="manager.name"></td>
+                            <td ng-bind="manager.email"></td>
+                            <td ng-bind="manager.mobile"></td>
+                            <td>
+
+
+                                <a class="btn btn-info btn-xs" ng-click="updateManager($index)"><i class="glyphicon glyphicon-pencil"></i></a>
+                                <a class="btn btn-danger btn-xs" ng-click="removeManager($index)"><i class="glyphicon glyphicon-ban-circle danger"></i></a>
+
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

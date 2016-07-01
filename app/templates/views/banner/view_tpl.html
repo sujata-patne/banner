@@ -1,0 +1,96 @@
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Add Banners
+<!--                <a href="javascript:void(0)" class="pull-right" ng-click="goToBanners()" ><i class="glyphicon glyphicon-arrow-left"></i> Back to banners</a>-->
+
+            </div>
+            <div class="panel-body">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-8 col-md-offset-2">
+                            <table class="table table-condensed table-striped table-responsive ">
+                                <thead>
+                                    <tr>
+
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td><label>Client</label></td>
+                                        <td class="right" ng-bind-template="{{banner.details.client_name}}"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><label>Delivery Channel</label></td>
+                                        <td class="right" ng-bind-template="{{banner.details.cd_name}}"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><label>Campaign</label></td>
+                                        <td class="right" ng-bind-template="{{banner.details.campaign_name}}"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><label>Banner Name</label></td>
+                                        <td class="right" ng-bind-template="{{banner.banner_name}}"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><label>Start Date</label></td>
+                                        <td class="right" ng-bind-template="{{banner.start_date}}"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><label>End Date</label></td>
+                                        <td class="right" ng-bind-template="{{banner.end_date}}"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><label>Click Action Url</label></td>
+                                        <td class="right text-item" style="word-break: break-all;" ng-bind-template="{{banner.click_action_url}}"></td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="row">
+                        <fieldset>
+                            <legend>Banners</legend>
+                            <div class="col-md-12" ng-repeat="img in banner.images.items" style="margin-bottom: 15px;">
+                                    
+                                <div class="col-md-2 text-center" style="padding-top: 20px;">
+                                    {{img.width}} X {{img.height}}
+                                </div>
+                                <div class="col-md-10">
+                                 <img class="img-thumbnail" ng-src="{{getBannerImage(img.image_name)}}">
+                                </div>
+                                 
+                            </div> 
+                        </fieldset>
+                    </div>
+                </div>
+
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-md-2  col-sm-4 col-xs-8 pull-right">
+                        <button class="btn btn-success" ng-click="goNext(banner)">Confirm</button>
+                        
+                        <button class="btn btn-info" ng-click="goBack(banner)">Back</button>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+

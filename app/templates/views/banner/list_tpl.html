@@ -1,0 +1,18 @@
+<uib-tabset active="active">
+    <uib-tab index="0" heading="New Entries">
+        <div data-banner-list-grid></div>
+    </uib-tab>
+    <uib-tab index="1" heading="Published Banners">
+        <div data-publish-banner-list-grid></div>
+    </uib-tab>    
+</uib-tabset>
+
+
+<div class="row">
+    <div class="col-md-4 col-md-offset-5">
+        <a class="btn btn-info"  data-ng-if="onlyUserTypes(['admin'])"  class="help-block"   ng-click="downloadBannerList()"> Download List</a>
+    </div>
+</div>
+
+
+

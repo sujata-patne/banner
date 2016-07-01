@@ -1,0 +1,5 @@
+2016-05-31 19:01:58 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-31 19:01:59 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-31 19:01:59 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-31 19:02:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-31 19:02:11 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 

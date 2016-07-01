@@ -1,0 +1,94 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="bs-example-navbar-collapse-1" data-aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="">
+          
+        <img alt="{{applicationName}}" src="app/images/logo.png">
+<!--                        <span data-ng-bind-template="{{applicationName}}"></span-->
+      </a>      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+<!--                <li  data-ng-class="c('dashboard_path','active')">
+                  <a data-ng-href="{{ r('dashboard_path') }}">Dashboard</a>
+                </li>-->
+                <li data-ng-if="onlyUserTypes(['admin'])" data-ng-class="c('account_managers_management_path','active')">
+                  <a data-ng-href="{{ r('account_managers_management_path') }}">Account Managers</a>
+                </li>
+
+                
+                <li class="dropdown"  data-ng-class="c('external_clients_list_path','active')"  data-ng-class="c('external_clients_path','active')"  data-ng-if="onlyUserTypes(['admin'])">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" data-aria-expanded="false">Manage Clients <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                          <a data-ng-href="{{ r('external_clients_path') }}">Add Client</a>
+                      </li>
+                      <li>
+                          <a data-ng-href="{{ r('external_clients_list_path') }}"> Client List</a>
+                      </li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown"  data-ng-if="onlyUserTypes(['AccountManager','admin'])">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" data-aria-expanded="false">Manage Campaign <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                          <a   data-ng-if="onlyUserTypes(['AccountManager'])"  data-ng-href="{{ r('campaign_path') }}">Add Campaign</a>
+                      </li>
+                      <li>
+                          <a data-ng-href="{{ r('campaign_list_path') }}"> Campaign List</a>
+                      </li>
+                    </ul>
+                </li>
+        
+                <li class="dropdown"  data-ng-if="onlyUserTypes(['AccountManager','admin'])">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" data-aria-expanded="false">Manage Banners <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                        <a  data-ng-if="onlyUserTypes(['AccountManager'])" data-ng-href="{{ r('banners_path') }}">Add Banner</a>
+                    </li>
+                    <li>
+                        <a data-ng-href="{{ r('banner_list_path') }}"> Banner List</a>
+                    </li>
+<!--                    <li>
+                        <a data-ng-href="{{ r('banner_publish_path') }}">Publish Banners</a>
+                    </li>-->
+                  </ul>
+                </li>
+                
+                
+                <li  data-ng-class="c('password_change_path','active')"  data-ng-if="onlyUserTypes(['AccountManager','admin'])"s>
+                  <a data-ng-href="{{ r('password_change_path') }}">Change Password</a>
+                </li>
+                
+      </ul>
+    
+      <ul class="nav navbar-nav navbar-right">
+    
+
+<!--          <li data-ng-if="!checkLoggedInUser()" >
+              <a ng-href="{{r('login_path')}}">Login</a></li>-->
+        <li data-ng-if="checkLoggedInUser()">
+              
+            <span class="help-block" data-ng-bind-template ="Welcome: {{user.ld_display_name}}"></span>
+              <span class="help-block"  data-ng-bind-template ="Last Login: {{user.ld_last_login}}"></span>                       
+        </li>
+        
+        <li  data-ng-if="checkLoggedInUser()"><a href="javascript:void(0)" data-ng-click="logout()" class="info label" > Logout</a></li>
+
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!--<div data-ng-if="loading" ><i class="glyphicon glyphicon-repeat gly-spin center-block center"></i></div>-->

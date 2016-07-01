@@ -1,0 +1,397 @@
+2016-05-27 10:00:12 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 10:00:12 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:00:13 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 10:00:18 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:00:19 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 10:00:19 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-05-27 10:10:40 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 10:10:41 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:10:41 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 10:10:47 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:10:47 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 10:12:35 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 10:12:35 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:12:35 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 10:12:39 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:12:39 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 10:12:53 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:12:54 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 10:13:52 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 10:13:52 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:13:52 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:13:53 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 10:13:56 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:13:56 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 10:14:03 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:14:03 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 10:15:04 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 10:15:04 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:15:05 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 10:15:09 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:15:10 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 10:15:12 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:15:12 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 10:18:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 10:18:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:18:11 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 10:18:14 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:18:15 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 10:18:21 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:18:22 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 10:19:20 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 10:19:20 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:19:20 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 10:19:24 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:19:24 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 10:48:07 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 10:48:07 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:48:08 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 10:48:20 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:48:20 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 10:48:24 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 10:48:24 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 11:48:36 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 11:48:36 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:48:37 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 11:48:42 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:48:42 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 11:48:51 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:48:51 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 11:49:26 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 11:49:26 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:49:26 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 11:49:32 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:49:32 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 11:49:41 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:49:41 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 11:50:49 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:50:50 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 11:52:56 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:52:56 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 11:53:22 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:53:23 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 11:54:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:54:12 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 11:54:35 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:54:36 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 11:56:46 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:56:46 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 11:57:51 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 11:57:51 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:00:30 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:00:31 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:00:58 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:00:58 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:01:21 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:01:22 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:02:04 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:02:05 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:05:02 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 12:05:02 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:05:03 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 12:05:14 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:05:15 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:06:10 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:06:10 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:06:28 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:06:29 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:08:14 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:08:14 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:09:08 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:09:09 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:10:28 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:10:28 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:12:38 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:12:39 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:17:14 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:17:14 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:19:30 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:19:31 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:20:55 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:20:55 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:21:22 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:21:22 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:21:46 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:21:46 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:22:02 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:22:02 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:23:59 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:24:00 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:24:27 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:24:28 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:25:42 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:25:42 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:26:05 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:26:05 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:26:36 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:26:36 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:41:09 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 12:41:10 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:41:10 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 12:41:18 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:41:19 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:42:32 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:42:33 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:43:33 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:43:34 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:48:00 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:48:00 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:48:54 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:48:54 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 12:52:46 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 12:52:46 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:02:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:02:11 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:02:50 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:02:51 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:04:29 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:04:29 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:06:21 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:06:21 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:12:18 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 13:12:18 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:12:20 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 13:13:15 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:13:15 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:38:00 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:38:00 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:39:09 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:39:09 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:39:44 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:39:44 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:40:00 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:40:00 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:47:50 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 13:47:50 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:47:54 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:47:55 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:49:24 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 13:49:24 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:49:24 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 13:49:30 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:49:30 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:50:15 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 13:50:15 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:50:15 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 13:50:19 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:50:19 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:51:06 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 13:51:08 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:51:08 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:52:53 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 13:52:53 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:52:55 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:52:55 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:54:36 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 13:54:36 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:54:36 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 13:54:38 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:54:39 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:55:51 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 13:55:51 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:55:51 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 13:55:53 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:55:54 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 13:57:47 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 13:57:47 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:01:16 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:01:17 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:05:34 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:05:35 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:06:59 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 14:06:59 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:07:00 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 14:07:00 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:07:01 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:07:03 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:07:03 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:14:27 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 14:14:27 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:14:27 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 14:15:44 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 14:15:44 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:15:44 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 14:15:47 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:15:48 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:18:38 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 14:18:39 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:18:40 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 14:18:55 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:18:56 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:21:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:21:12 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:22:14 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:22:14 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:22:22 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:22:23 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:22:42 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:22:43 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:23:02 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:23:03 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:23:58 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:23:58 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:24:44 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:24:44 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:30:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:30:11 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:43:28 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 14:43:28 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:43:28 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 14:43:31 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:43:31 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:45:17 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:45:17 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 14:46:25 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 14:46:26 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:01:39 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 15:01:39 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:01:40 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 15:01:52 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:01:52 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:02:09 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:02:09 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:03:16 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:03:17 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:05:24 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:05:25 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:05:58 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:05:59 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:06:25 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:06:25 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:10:29 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:10:30 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:10:59 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:10:59 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:13:32 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:13:32 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:14:50 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:14:51 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:15:17 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:15:18 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:15:30 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:15:30 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:19:14 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:19:14 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:31:07 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 15:31:07 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:31:08 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 15:31:15 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:31:15 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:36:36 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:36:37 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:40:13 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:40:14 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:41:22 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:41:23 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:42:29 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 15:42:29 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:42:29 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 15:42:32 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:42:32 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:42:42 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:42:43 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:44:23 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 15:44:23 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:44:23 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 15:44:32 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:44:32 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:54:08 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 15:54:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:54:12 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 15:54:14 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 15:54:16 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 16:11:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:11:11 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:13:21 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 16:13:21 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:13:22 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 16:13:26 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:13:27 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:13:34 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:13:34 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:14:27 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:14:28 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:15:07 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:15:07 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:16:37 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:16:37 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:17:06 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:17:06 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:18:08 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:18:08 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:20:18 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:20:18 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:21:54 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:21:54 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:22:17 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:22:17 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:36:55 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 16:36:55 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:36:55 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 16:37:04 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:37:04 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:37:40 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:37:40 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:48:58 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:48:59 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:51:24 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:51:25 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 16:59:07 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 16:59:08 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:01:01 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:01:02 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:01:05 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 17:01:05 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:01:07 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 17:05:50 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:05:50 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:06:54 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:06:54 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:09:55 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:09:55 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:11:39 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:11:40 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:11:50 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:11:50 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:12:35 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:12:35 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:12:49 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:12:50 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:13:16 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:13:16 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:15:14 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:15:14 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:20:53 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:20:54 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:22:56 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:22:56 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 17:57:30 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 17:57:30 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:57:30 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 17:57:36 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 17:57:36 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 18:00:53 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:00:54 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 18:06:52 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:06:53 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 18:08:06 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:08:06 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 18:10:15 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:10:16 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 18:11:30 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:11:31 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 18:11:48 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:11:49 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 18:22:08 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:22:08 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 18:27:59 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-05-27 18:27:59 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:28:00 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-05-27 18:28:49 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:28:49 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 18:31:49 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:31:49 - INFO  --> CampaignController:getCampaings#{"status":"success","status_code":"200","msg":"Campaings retrieved successfully!"} 
+2016-05-27 18:31:51 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:31:52 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-05-27 18:33:36 - INFO  --> UserController:LoginCheck#{"login_session_id":"nqb6a7m8bj5qr46u738vjjldo3","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-05-27 18:33:37 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 

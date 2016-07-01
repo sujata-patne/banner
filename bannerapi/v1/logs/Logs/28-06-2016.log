@@ -1,0 +1,13 @@
+2016-06-28 14:59:09 - INFO  --> UserController:findAll#{"status":"success","status_code":"200","msg":"Records found successfully!"} 
+2016-06-28 14:59:09 - INFO  --> UserController:LoginCheck#{"login_session_id":"tkcn0tgb36gd61gvp0jl59oqu0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-28 14:59:09 - INFO  --> UserController:LoginCheck#{"login_session_id":"tkcn0tgb36gd61gvp0jl59oqu0","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-06-28 14:59:13 - INFO  --> UserController:LoginCheck#{"login_session_id":"tkcn0tgb36gd61gvp0jl59oqu0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-28 14:59:13 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-28 14:59:18 - INFO  --> UserController:LoginCheck#{"login_session_id":"tkcn0tgb36gd61gvp0jl59oqu0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-28 14:59:18 - INFO  --> CampaignController:getCampaings#{"status":"success","status_code":"200","msg":"Campaings retrieved successfully!"} 
+2016-06-28 14:59:20 - INFO  --> UserController:LoginCheck#{"login_session_id":"tkcn0tgb36gd61gvp0jl59oqu0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-28 14:59:20 - INFO  --> UserController:findAll#{"status":"success","status_code":"200","msg":"Records found successfully!"} 
+2016-06-28 14:59:28 - INFO  --> UserController:LoginCheck#{"login_session_id":"tkcn0tgb36gd61gvp0jl59oqu0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-28 14:59:29 - INFO  --> StoreController:getStoresDeliveries#{"status":"success","status_code":"200","msg":"Storelist retrieved successfully!"} 
+2016-06-28 14:59:31 - INFO  --> UserController:LoginCheck#{"login_session_id":"tkcn0tgb36gd61gvp0jl59oqu0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-28 14:59:31 - INFO  --> CampaignController:getCampaings#{"status":"success","status_code":"200","msg":"Campaings retrieved successfully!"} 

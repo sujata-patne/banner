@@ -1,0 +1,2 @@
+2016-05-06 12:20:02 - INFO  --> BannerController:create#{"status":"error","status_code":"400","msg":"Banner date should be in between  from 07\/05\/2016 17:35:00 to 14\/05\/2016 17:35:00"} 
+2016-05-06 12:20:15 - INFO  --> BannerController:create#{"status":"error","status_code":"400","msg":"Banner date should be in between  from 07\/05\/2016 17:35:00 to 14\/05\/2016 17:35:00"} 

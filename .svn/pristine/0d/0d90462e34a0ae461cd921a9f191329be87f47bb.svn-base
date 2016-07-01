@@ -1,0 +1,195 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading"> Add Account Manager. 
+                <a type="button" class="btn btn-default pull-right btn-xs" ng-click="isCollapsed = !isCollapsed"><i class="glyphicon "  ng-class="{'glyphicon-arrow-down':isCollapsed,'glyphicon-arrow-up':!isCollapsed}"></i></a>
+	
+            </div>
+            <div class="panel-body"  data-uib-collapse="isCollapsed">
+                <form name="accountMgrFrm" ng-submit="saveManager(accountMgrFrm)" novalidate>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Account Manager Name<span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">     
+                                <input type="text" name="ld_display_name" class="form-control"  placeholder="Account Manager Name" ng-model="user.ld_display_name" ng-minlength="2" ng-maxlength="49" required>
+                                <span ng-if="accountMgrFrm.ld_display_name.$invalid && accountMgrFrm.ld_display_name.$dirty || accountMgrFrm.submitted">
+                                    <span ng-if="accountMgrFrm.ld_display_name.$error.required" class="error"> Manager name is required.</span>
+                                    <span ng-if="accountMgrFrm.ld_display_name.$error.minlength && accountMgrFrm.submitted" class="error"> Name must be greater than 2 characters</span>
+                                    <span ng-if="accountMgrFrm.ld_display_name.$error.maxlength && accountMgrFrm.submitted" class="error"> Name must be less than 50 characters</span>
+                                </span>
+                            </span>
+                        </div>
+
+                        <div class="form-group row"> 
+                            <span class="col-md-4">     
+                                <label >Manager Email [user] Id<span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8"> 
+                                <input ng-disabled="user.scenario == 'update'" autocomplete="off" type="email" name="ld_email_id" class="form-control"  placeholder="Account Manager Email Id" ng-model="user.ld_email_id" required unique-email ng-maxlength="49">
+                                <span ng-if="accountMgrFrm.ld_email_id.$invalid && accountMgrFrm.ld_email_id.$dirty || accountMgrFrm.submitted">
+                                    <span ng-if="accountMgrFrm.ld_email_id.$error.required" class="error"> User email is required.</span>
+                                    <span ng-if="accountMgrFrm.ld_email_id.$error.email && accountMgrFrm.submitted" class="error"> User email is invalid.</span>
+                                    <span ng-if="accountMgrFrm.ld_email_id.$error.uniqueEmail && accountMgrFrm.submitted" class="error"> This email is already taken.</span>
+                                    <span ng-if="accountMgrFrm.ld_email_id.$error.maxlength && accountMgrFrm.submitted" class="error"> Email must be less than 50 characters.</span>
+
+                                </span>
+                            </span>
+                        </div>
+
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Mobile Number<span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">     
+                                <input maxlength="10" type="number" name="ld_mobile_no" class="form-control"  placeholder="Account Mgr. Mobile No." ng-model="user.ld_mobile_no" minmax-length="10" required  >
+                                <span ng-if="accountMgrFrm.ld_mobile_no.$invalid && accountMgrFrm.ld_mobile_no.$dirty || accountMgrFrm.submitted">
+                                    <span ng-if="accountMgrFrm.ld_mobile_no.$error.required" class="error"> User mobile is required.</span>
+                                    <span ng-if="!accountMgrFrm.ld_mobile_no.$error.required && accountMgrFrm.ld_mobile_no.$error.elementLength && accountMgrFrm.submitted" class="error"> Invalid Mobile Number.</span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="form-group row">
+
+                            <span class="col-md-4">     
+                                <label >Account Expired On <span class="error"> *</span></label>
+                            </span>
+                            <div class="col-md-8"> 
+                                <input datetime-picker data-date-format="{{getDateFormatString()}}" readonly="true" type="text" id="account_validity_txt" name="account_validity"  class="form-control pull-left datetimepicker"  placeholder="Select Account expire date" ng-model="user.account_validity" data-scenario="{{user.scenario}}" required data-future-date-only />
+                                 <span ng-if="accountMgrFrm.account_validity.$invalid && accountMgrFrm.account_validity.$dirty || accountMgrFrm.submitted">
+                                    <span ng-if="accountMgrFrm.account_validity.$error.required" class="error"> Account expire date is required.</span>
+                                    <span ng-if="accountMgrFrm.account_validity.$error.elementLength" class="error">Account expire date is invalid.</span>
+                                    <span ng-if="accountMgrFrm.account_validity.$touched && accountMgrFrm.account_validity.$error.futureonly" class="error">Account expire date should  be future date only.</span>
+                                </span>
+
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Select Store</label>
+                            </span>
+                            <span class="col-md-8">     
+                                <span ng-if="user.stores.length>0" class="help-block">Total Selected {{user.stores.length}}</span>
+                                <select multiple  name="stores" class="form-control"  ng-model="user.stores" ng-options="x.st_name  for x in storeList track by x.st_id">
+                                </select>
+                                <span class="help-block">
+                                    <label> 
+                                        <input type="checkbox" ng-model="storeSelectAll" ng-change ="selectAllStores()">
+                                        Select all stores
+                                    </label>
+                                    <label class="help-block btn btn-danger btn-xs pull-right" ng-click="user.stores=[];storeSelectAll=0" >Unselect all</label>
+                                </span>
+                                
+
+                                <span ng-if="accountMgrFrm.stores.$invalid && accountMgrFrm.stores.$dirty || accountMgrFrm.submitted">
+                                    <span ng-if="accountMgrFrm.stores.$error.required" class="error"> User mobile is required.</span>
+                                </span>
+                            </span>
+                        </div>
+
+                        <div class="col-md-6 pull-right">
+                            <button type="submit"  class="btn btn-success" ng-disabled="loading">
+                                <span ng-if="user.scenario=='update'">
+                                    Update
+                                </span> 
+                                <span ng-if="user.scenario!='update'">
+                                    Submit
+                                </span> 
+                            </button>
+                            <button type="reset" class="btn btn-warning" ng-click="reset(accountMgrFrm)">Reset</button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                {{grid.title}}
+<!--                   <span class="pull-right">
+                      Items/page
+                      <select ng-model="listCriteria.perPageItems" ng-change="pageChanged()">
+                          <option value="10" ng-selected="listCriteria.perPageItems==10">10</option>
+                        <option value="20">20</option>
+                    </select>
+                </span>
+                -->
+            </div>
+            <div class="panel-body">
+
+
+                <div ng-if=" itemsData.items.length <= 0" class="help-block center-block"> No managers found!</div>
+                    
+                <table ng-if="itemsData.items.length > 0" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <td>User Id</td>
+                            <td>Account Manager Name</td>
+                            <td>Email Id</td>
+                               <td  class="hidden-xs hidden-sm">
+                                Stores
+                               </td>
+                            <td>Actions</td>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="manager in itemsData.items">
+                            <td ng-bind="manager.ld_id"></td>
+                            <td ng-bind="manager.ld_display_name"></td>
+                            <td ng-bind="manager.ld_email_id"></td>
+                            <td  class="hidden-xs hidden-sm">
+                                <span class="label label-default" style="margin-right: 3px;" ng-repeat="store in manager.stores.items| limitTo:3" ng-bind="store.st_name"></span> 
+                                <a ng-click="open('sm',manager.stores.items)" ng-if="manager.stores.items.length >3" >..Show all</a>
+                            </td>
+                            <td>
+                                <a title="Update account" class="btn btn-info btn-xs" ng-if="manager.ld_active == 1" ng-click="updateManager(manager.ld_id)"><i class="glyphicon glyphicon-pencil"></i></a>
+                                <a title="Block account"  class="btn btn-success btn-xs" ng-click="removeManager(manager.ld_id)" ng-if="manager.ld_active == 1 && manager.validity_status != 'Expired'"><i class="glyphicon glyphicon-ban-circle"></i>
+                                <a title="Account expired" class="btn btn-warning btn-xs"  ng-if="manager.ld_active == 1 && manager.validity_status=='Expired'" ng-disabled="1"><i class="glyphicon glyphicon-ban-circle"></i></a>
+                                <a title="Unblock account" class="btn btn-danger btn-xs" ng-click="activateManager(manager.ld_id)"  ng-if="manager.ld_active == 0" ><i class="glyphicon glyphicon-ban-circle"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                
+                
+                
+                    <div data-ng-show="searchStarted && !showLoading && items.length === 0" class="color-disabled">No Labels</div>
+                    <div class="clearfix"></div>
+                    <div class="row col-md-12">
+                        <uib-pagination  ng-if="itemsData.totalItemsFound >  listCriteria.perPageItems"  ng-change="pageChanged()" total-items="itemsData.totalItemsFound" items-per-page="listCriteria.perPageItems" ng-model="listCriteria.currentPage" class="pagination-sm pull-right" boundary-link-numbers="true" rotate="false"></uib-pagination>
+                        <div class="clearfix"></div>
+                    </div>
+                
+                     <script type="text/ng-template" id="myModalContent.html">
+                        <div class="modal-header">
+                            <h3 class="modal-title">All Stores</h3>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li style="margin-top:5px" ng-repeat="item in items">
+                                    <span  class="label label-default" ng-click="$event.preventDefault(); ">{{ item.st_name }}</span>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+                        </div>
+                    </script>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,100 @@
+
+
+var appcontrollers = angular.module('App.Controllers', []);
+
+
+  appcontrollers.run(['$rootScope', '$appScope','authorization','$http','UserService','alertService', function($rootScope, $appScope,authorization,$http,UserService,alertService) {
+
+                  
+    $rootScope.$on("$routeChangeStart", function(event, next, current) {
+      $rootScope.onLoading();
+//      APIInterceptor.headers();
+      
+      
+      var authorised = null;
+            if (next.access !== undefined && next.access.requiresLogin) {
+               var userLoggedIn =   UserService.getCurrentUser();
+                authorization.getConditions(next.access,userLoggedIn);
+            }
+    });
+    
+    
+    $rootScope.$on("$routeChangeSuccess", function(event, next, current) {
+     
+        if(typeof next.params.alert == 'undefined'  || !next.params.alert)
+        {
+            alertService.reset();
+        }
+        
+         $rootScope.onReady();
+    });
+
+    $rootScope.applicationName = angular.copy(CONFIG.appName);
+
+    $rootScope.onLoading = function() {
+      $rootScope.$safeApply(function() {
+        $rootScope.loading = true;
+        $rootScope.status = 'loading';
+      },this);
+    };
+
+    $rootScope.onReady = function() {
+      $rootScope.$safeApply(function() {
+        $rootScope.loading = false;
+        $rootScope.status = 'ready';
+      },this);
+    };
+  }]);
+
+  appcontrollers.controller('AppCtrl', ['$appTimer', '$appStorage', '$location', '$scope','AkAlert', function($timer, $storage, $location, $scope,AkAlert) {
+          
+          
+         $scope.onlyNumbers = /^\d+$/;
+         $scope.alertData = AkAlert.checkAlertData();
+ 
+  }]);
+
+ appcontrollers.controller('DashboardCtrl', [ '$location', '$appStorage', '$scope', '$routeParams','authorization','$route','UserService', function( $location, $storage, $scope, $params,authorization,$route,UserService) {
+    
+        UserService.redirect();    
+
+    
+//    console.log($route.current.access);
+  //  authorization.getConditions($route.current.access);
+    
+//    console.log(UserService.getCurrentUser());
+  }]);
+
+  appcontrollers.controller('OtherCtrl', ['$scope', function($scope) {
+  
+  }]);
+
+ appcontrollers.controller('externalClientsController', ['$appStorage', '$scope', '$routeParams', function( $storage, $scope, $params) {
+          
+    $scope.id = null; 
+    if( typeof $params.id != 'undefined')
+    {
+          $scope.id = $params.id;  
+    }    
+
+  }]);
+    appcontrollers.controller('accountManagersController', [ '$location', '$appStorage', '$scope', '$routeParams', function( $location, $storage, $scope, $params) {
+
+  }]);
+    appcontrollers.controller('campaignController', [ '$location', '$appStorage', '$scope', '$routeParams', function( $location, $storage, $scope, $params) {
+
+    $scope.id = null; 
+    if( typeof $params.id != 'undefined')
+    {
+          $scope.id = $params.id;  
+    }    
+
+         
+  }]);
+   
+   
+
+    appcontrollers.controller('VideosCtrl', [ '$location', '$appStorage', '$scope', '$routeParams', function( $location, $storage, $scope, $params) {
+         
+         
+  }]);

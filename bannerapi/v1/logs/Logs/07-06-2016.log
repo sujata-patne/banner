@@ -1,0 +1,301 @@
+2016-06-07 10:11:07 - INFO  --> UserController:LoginCheck#{"login_session_id":"t4ork0kf7gako8jep4nvlp15h5","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 10:11:08 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 10:11:08 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 10:11:10 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 10:11:10 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 10:11:12 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 10:11:13 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 10:11:14 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 10:11:16 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 10:11:17 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 10:11:18 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 10:11:19 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 10:11:20 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 10:11:22 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 10:11:23 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 10:11:25 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 10:11:26 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 10:11:27 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 10:11:29 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 11:08:03 - INFO  --> UserController:LoginCheck#{"login_session_id":"t4ork0kf7gako8jep4nvlp15h5","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 11:08:03 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 11:08:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"t4ork0kf7gako8jep4nvlp15h5","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 11:08:12 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 11:08:12 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 11:08:17 - INFO  --> UserController:LoginCheck#{"login_session_id":"t4ork0kf7gako8jep4nvlp15h5","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 11:08:18 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 11:08:18 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 11:08:18 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 11:08:18 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 11:08:18 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 11:08:18 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 11:08:18 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 11:08:18 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 11:08:18 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 15:02:25 - INFO  --> UserController:Logout#{"status":"success","status_code":"200","msg":" User logout successfully.."} 
+2016-06-07 15:02:43 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"banneradmin Logging in successfully!"} 
+2016-06-07 15:02:43 - INFO  --> UserController:LoginCheck#{"login_session_id":"voejunvb4lkdqjk56vpedjgjc4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 15:02:48 - INFO  --> UserController:LoginCheck#{"login_session_id":"voejunvb4lkdqjk56vpedjgjc4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 15:02:48 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 15:02:58 - INFO  --> UserController:LoginCheck#{"login_session_id":"voejunvb4lkdqjk56vpedjgjc4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 15:02:58 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 15:03:03 - INFO  --> UserController:LoginCheck#{"login_session_id":"voejunvb4lkdqjk56vpedjgjc4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 15:03:03 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 16:08:48 - INFO  --> UserController:LoginCheck#{"login_session_id":"voejunvb4lkdqjk56vpedjgjc4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 16:08:48 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 16:20:31 - INFO  --> UserController:LoginCheck#{"login_session_id":"voejunvb4lkdqjk56vpedjgjc4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 16:20:31 - INFO  --> CampaignController:getCampaings#{"status":"success","status_code":"200","msg":"Campaings retrieved successfully!"} 
+2016-06-07 16:20:32 - INFO  --> UserController:LoginCheck#{"login_session_id":"voejunvb4lkdqjk56vpedjgjc4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 16:20:33 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 16:20:33 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 16:20:35 - INFO  --> UserController:Logout#{"status":"success","status_code":"200","msg":" User logout successfully.."} 
+2016-06-07 16:20:47 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"shivaji.gadade3510 Logging in successfully!"} 
+2016-06-07 16:20:48 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 16:20:51 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 16:20:51 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 16:20:51 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 16:20:56 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 16:20:56 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 16:20:56 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 16:20:56 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 16:20:56 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 16:20:56 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 16:20:56 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 16:20:57 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 16:20:57 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 16:20:57 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 17:23:19 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-06-07 17:23:19 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:23:20 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 17:24:03 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 17:24:04 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Prefered Stores retrieved successfully!"} 
+2016-06-07 17:24:09 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:24:09 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 17:24:17 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:24:18 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:24:18 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:24:20 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:24:20 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:24:20 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:24:20 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:24:20 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:24:20 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:24:20 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:24:20 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 17:24:20 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 17:24:20 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 17:24:47 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Banner published successfully."} 
+2016-06-07 17:24:47 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:24:47 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:24:47 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:25:47 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-06-07 17:25:47 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:25:48 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 17:25:52 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:25:52 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:25:53 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:25:58 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:25:59 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:25:59 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:25:59 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:25:59 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:25:59 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:25:59 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:25:59 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 17:25:59 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 17:25:59 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 17:26:08 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:26:08 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:26:08 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:26:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:26:11 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:26:11 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:26:11 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:26:11 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:26:11 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:26:11 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:26:11 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 17:26:11 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 17:26:11 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 17:26:26 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Published banner updated successfully."} 
+2016-06-07 17:26:26 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:26:26 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:26:27 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:27:44 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-06-07 17:27:44 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:27:44 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 17:27:54 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:27:55 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:27:55 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:27:59 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:27:59 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:27:59 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:27:59 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:27:59 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:27:59 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:27:59 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:27:59 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 17:27:59 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 17:27:59 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 17:28:10 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Published banner updated successfully."} 
+2016-06-07 17:28:11 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:28:11 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:28:11 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:29:21 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:29:21 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:29:21 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:29:25 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:29:26 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:29:26 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:29:26 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:29:26 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:29:26 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:29:26 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:29:26 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 17:29:26 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 17:29:26 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 17:29:30 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Published banner updated successfully."} 
+2016-06-07 17:29:30 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:29:30 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:29:30 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:34:03 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-06-07 17:34:03 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:34:03 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 17:34:13 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 17:34:15 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:34:15 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:34:15 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:34:20 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:34:20 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:34:20 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:34:20 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:34:20 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:34:20 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:34:20 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:34:21 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 17:34:21 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 17:34:21 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 17:51:22 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-06-07 17:51:23 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:51:23 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 17:51:32 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:51:32 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:51:32 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:51:33 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:51:33 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:51:33 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:51:33 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:51:33 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:51:33 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:51:33 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:51:34 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 17:51:34 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 17:51:34 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 17:51:54 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Banner published successfully."} 
+2016-06-07 17:51:54 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:51:54 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:51:55 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:53:42 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:53:42 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:53:42 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:53:42 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:53:42 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:53:42 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:53:42 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:53:42 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 17:53:42 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 17:53:42 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 17:53:47 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Published banner updated successfully."} 
+2016-06-07 17:53:47 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:53:47 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:53:47 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 17:54:52 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:54:52 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:54:53 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:54:53 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:54:53 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:54:53 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 17:54:53 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 17:54:53 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 17:54:53 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 17:55:25 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Banner published successfully."} 
+2016-06-07 17:55:25 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 17:55:25 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 17:55:25 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 18:45:40 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-06-07 18:45:40 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 18:45:41 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 18:45:48 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 18:45:48 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 18:45:48 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 18:45:59 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 18:45:59 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 18:45:59 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 18:45:59 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 18:45:59 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 18:45:59 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 18:45:59 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 18:45:59 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 18:45:59 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 18:45:59 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 18:46:20 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Banner published successfully."} 
+2016-06-07 18:47:13 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-06-07 18:47:13 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 18:47:13 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 18:47:24 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Banner published successfully."} 
+2016-06-07 19:02:33 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-06-07 19:02:34 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 19:02:34 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 19:02:42 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 19:02:42 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 19:02:43 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 19:02:47 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 19:02:47 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:02:47 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:02:47 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:02:47 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:02:47 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:02:48 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:02:48 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 19:02:48 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 19:02:48 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 19:03:14 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Banner published successfully."} 
+2016-06-07 19:03:54 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Banner published successfully."} 
+2016-06-07 19:04:33 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":" User Logging in.."} 
+2016-06-07 19:04:33 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 19:04:33 - INFO  --> ClientController:getClients#{"status":"success","status_code":"200","msg":"Clients retrieved successfully!"} 
+2016-06-07 19:04:38 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 19:04:38 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 19:04:39 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 19:10:51 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 19:10:51 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 19:10:51 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 19:12:14 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 19:12:14 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 19:12:14 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 19:12:18 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 19:12:18 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:12:18 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:12:18 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:12:18 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:12:18 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:12:18 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 19:12:19 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 19:12:19 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 
+2016-06-07 19:12:42 - INFO  --> BannerController:BannerPublish#{"status":"success","status_code":"200","msg":"Banner published successfully."} 
+2016-06-07 19:12:42 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 19:12:42 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 19:12:42 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 19:14:02 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 19:14:02 - INFO  --> BannerController:getBanners#{"status":"success","status_code":"200","msg":"Banners retrieved successfully!"} 
+2016-06-07 19:14:02 - INFO  --> BannerController:getPublishBanners#{"status":"success","status_code":"200","msg":"Published Banners retrieved successfully!"} 
+2016-06-07 19:15:41 - INFO  --> UserController:LoginCheck#{"login_session_id":"hv7te3sqmtksv27hdvm7mpn2t4","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-07 19:15:41 - INFO  --> BannerController:getHandsetGroup#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:15:41 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:15:41 - INFO  --> BannerController:getHandsetList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:15:41 - INFO  --> BannerController:getOperatorsList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:15:41 - INFO  --> BannerController:getCircleList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:15:41 - INFO  --> BannerController:getOperatingSystemList#{"status":"success","status_code":"200","msg":"Found data successfully."} 
+2016-06-07 19:15:41 - INFO  --> BannerController:findOne#{"status":"success","status_code":"200","msg":"Banner info retrieved successfully!"} 
+2016-06-07 19:15:41 - INFO  --> CampaignController:getDeliveryChannel#{"status":"success","status_code":"200","msg":"Delivery Channel retrieved successfully!"} 
+2016-06-07 19:15:41 - INFO  --> CampaignController:getCampaignsByClient#{"status":"success","status_code":"200","msg":"Campaigns By Client retrieved successfully!"} 

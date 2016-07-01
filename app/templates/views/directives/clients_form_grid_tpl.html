@@ -1,0 +1,186 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+
+                <span ng-if="client.scenario=='insert'">Add Client</span>
+                <span ng-if="client.scenario=='update'">Update Client</span>
+                <a  href="javascript:void(0)"  class="pull-right" ng-click="goToClients()" ><i class="glyphicon glyphicon-arrow-left"></i> Back to clients list</a>
+
+            </div>
+            <div class="panel-body">
+                <form name="clientFrm" ng-submit="create(clientFrm)" novalidate>
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Account/Client Name <span class="error"> *</span></label>
+                            </span>
+                            <span class="col-md-8">     
+                                <input type="text" name="client_name" class="form-control"  placeholder="Account/Client Name" ng-model="client.client_name" required data-unique-ness tablename="clients" columnname="client_name" scenario="{{client.scenario}}" object-id="{{client.id}}"  ng-maxlength="49" >
+                                <span ng-if="clientFrm.client_name.$invalid && clientFrm.client_name.$dirty || clientFrm.submitted">
+                                    <span ng-if="clientFrm.client_name.$error.required" class="error">Account / Client Name name is required.</span>
+                                    <span ng-if="clientFrm.client_name.$error.uniqueNess" class="error">Client name is already used.</span>          
+                                    <span ng-if="clientFrm.client_name.$error.maxlength && clientFrm.submitted" class="error"> Name must be less than 50 characters</span>                                   
+                                </span>
+
+                            </span>
+                        </div>
+
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Description</label>
+                            </span>
+                            <span class="col-md-8">     
+                                <textarea name="description" class="form-control"  placeholder="Description" ng-model="client.description" ng-maxlength="199" ></textarea>
+                                
+                                <span ng-if="clientFrm.description.$error.maxlength && clientFrm.submitted" class="error"> Description must be less than 200 characters</span>                                   
+
+                            </span>
+                        </div>
+
+                        <div class="form-group row">
+
+                            <span class="col-md-4">     
+                                <label >Account Expired On<span class="error"> *</span></label>
+                            </span>
+                            <div class="col-md-8"> 
+                                <input datetime-picker data-date-format="dd-MM-yyyy HH:mm:ss" readonly="true" type="text" name="expired_on" class="form-control datetimepicker"  placeholder="Account Expired on" ng-model="client.expired_on" data-scenario="{{client.scenario}}" required future-date-only >
+                                <span ng-if="clientFrm.expired_on.$invalid && clientFrm.expired_on.$dirty || clientFrm.submitted">
+                                    <span ng-if="clientFrm.expired_on.$error.required" class="error"> Account expire date is required.</span>
+                                    <span ng-if="clientFrm.expired_on.$error.elementLength" class="error">Account expire date is invalid.</span>
+                                    <span ng-if="clientFrm.expired_on.$touched && clientFrm.expired_on.$error.futureonly" class="error">Account expire date should  be future date only.</span>
+                                </span>
+
+
+                            </div>
+                        </div>
+                        
+                        <fieldset>
+                            
+
+                            <div class="form-group row">
+                                <span class="col-md-4">     
+                                    <label >Contact Person<span class="error"> *</span></label>
+                                </span>
+                                <span class="col-md-8">     
+                                    <input type="text" name="contact_name" class="form-control"  placeholder="Name" ng-model="client.contact_name" required ng-maxlength='49' >
+                                    <span ng-if="clientFrm.contact_name.$invalid && clientFrm.contact_name.$dirty || clientFrm.submitted">
+                                        <span ng-if="clientFrm.contact_name.$error.required" class="error">Contact person name is required.</span>
+                                        <span ng-if="clientFrm.contact_name.$error.maxlength && clientFrm.submitted" class="error"> Name must be less than 50 characters</span>                                   
+                                
+                                    </span>
+                                </span>
+                            </div>
+
+                            <div class="form-group row">
+                                <span class="col-md-4">     
+                                    <label >Mobile Number<span class="error"> *</span></label>
+                                </span>
+                                <span class="col-md-8">     
+                                    <input type="number" name="contact_no" class="form-control"  placeholder="Mobile No." ng-model="client.contact_no" minmax-length="10" required >
+                                    <span ng-if="clientFrm.contact_no.$invalid && clientFrm.contact_no.$dirty || clientFrm.submitted">
+                                        <span ng-if="clientFrm.contact_no.$error.required" class="error"> User mobile is required.</span>
+                                        <span ng-if="!clientFrm.contact_no.$error.required && clientFrm.contact_no.$error.elementLength && clientFrm.submitted" class="error"> Invalid Mobile Number.</span>
+                                    </span>
+                                </span>
+                            </div>                            
+
+                            <div class="form-group row"> 
+                                <span class="col-md-4">     
+                                    <label >  Email Id<span class="error"> *</span></label>
+                                    
+                                </span>
+                                <span class="col-md-8">     
+                                    <input autocomplete="off" type="email" name="email" class="form-control"  placeholder="Email Id" ng-model="client.email" required ng-maxlength='49'>
+                                    <span ng-if="clientFrm.email.$invalid && clientFrm.email.$dirty || clientFrm.submitted">
+                                        <span ng-if="clientFrm.email.$error.required" class="error"> User email is required.</span>
+                                        <span ng-if="clientFrm.email.$error.email && clientFrm.submitted" class="error"> User email is invalid.</span>
+                                        <span ng-if="clientFrm.email.$error.maxlength && clientFrm.submitted" class="error"> Email must be less than 50 characters</span>                                   
+                                    
+                                    </span>
+                                </span>
+                            </div>
+
+
+                        </fieldset>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group row">
+                            <span class="col-md-4">     
+                                <label >Select Store - delivery channel <span class="error"> *</span></label>
+                            </span>
+                            <div class="col-md-8">     
+                                <span ng-if="client.stores.length>0" class="help-block">Total Selected {{client.stores.length}}</span>
+                                <select multiple  name="stores" class="form-control"  ng-model="client.stores" ng-options="x.store_delivery_channel  for x in storeList track by x.store_delivery_channel" required>
+                                </select>
+                                    <span ng-if="clientFrm.stores.$invalid && clientFrm.stores.$dirty || clientFrm.submitted">
+                                        <span ng-if="clientFrm.stores.$error.required" class="error"> Store - delivery channel is required.</span>
+                                    </span>
+                                <span class="help-block">
+                                    <label> 
+                                        <input type="checkbox" ng-model="storeSelectAll" ng-change ="selectAllStores()">
+                                        Select all stores
+                                    </label>
+                                    <label class="help-block btn btn-danger btn-xs pull-right" ng-click="client.stores=[];storeSelectAll=0" >Unselect all</label>
+
+                                </span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 pull-right">
+                            <button type="submit"  class="btn btn-success">Submit</button>
+                            <button type="reset" class="btn btn-warning" ng-click="reset(clientFrm)">Reset</button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" ng-if="grids">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading" data-ng-bind="grid.title"></div>
+            <div class="panel-body">
+
+
+                <div ng-if=" managers.length <= 0" class="help-block center-block"> No managers found!</div>
+                    
+                <table ng-if=" managers.length > 0" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <td>Sr.</td>
+                            <td>Mgr. Name</td>
+                            <td>Email Id</td>
+                            <td>Stores</td>
+                            <td>Actions</td>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr ng-repeat="manager in managers">
+                            <td ng-bind="$index + 1"></td>
+                            <td ng-bind="manager.name"></td>
+                            <td ng-bind="manager.email"></td>
+                            <td ng-bind="manager.mobile"></td>
+                            <td>
+
+
+                                <a class="btn btn-info btn-xs" ng-click="updateManager($index)"><i class="glyphicon glyphicon-pencil"></i></a>
+                                <a class="btn btn-danger btn-xs" ng-click="removeManager($index)"><i class="glyphicon glyphicon-ban-circle danger"></i></a>
+
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

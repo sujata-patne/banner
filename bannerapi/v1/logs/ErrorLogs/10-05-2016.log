@@ -1,0 +1,2 @@
+2016-05-10 12:38:12 - INFO  --> UserController:login#{"status":"error","class":"error","status_code":"400","msg":"Username or password invalid"} 
+2016-05-10 12:38:23 - INFO  --> UserController:login#{"status":"error","class":"error","status_code":"400","msg":"Username or password invalid"} 

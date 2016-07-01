@@ -1,0 +1,785 @@
+<?php
+require_once(APP."Models/User.php");
+require_once(APP."Models/StoreUser.php");
+require_once(APP."Models/Message.php");
+require_once APP.'Utils/Mail.php';
+
+
+class UserController extends BaseController {
+
+	public function __construct() {
+		parent::__construct();
+	}
+
+        
+
+	public function login( $request ) {
+        
+            session_start();
+            $json = json_encode($request->parameters );
+         
+            $jsonObj = json_decode($json);
+            
+            $user  = new User();
+            
+            if(isset($_SESSION['LoggedUser']))
+            {
+                unset($_SESSION['LoggedUser']);
+            }
+            
+            
+            if(isset($_SESSION) && !empty($_SESSION['LoggedUser']))
+            {
+                $response = array("status" => "success", "status_code" => '200', 'msg' =>"Already Logging in..",'user'=>$_SESSION['LoggedUser']);
+                $this->successLog->LogInfo('UserController:login#'.json_encode($response));
+                $this->outputSuccess($response);
+            }
+            else
+            {
+                try 
+                
+                {
+                    $user = $user->findOne(
+                            array(
+                                'ld_user_name'=>array('=',$_POST['username']),
+                            )
+                        );
+                    
+                    if(!empty($user['item']) &&  !empty($user['item']['ld_user_pwd']) && $_POST['password'] ===  $user['item']['ld_user_pwd'] )
+                    {
+                            if(!empty($user['item']) && $user['item']['ld_active'] ==0 )
+                            {
+
+                                $response = array("status" => "error",'class'=>'error', "status_code" => '400', 'msg' =>"Your account is blocked. Please contact to admin.");
+                                $this->outputError($response);                    
+                            }
+                            
+                            $d1 = new DateTime($user['item']['account_validity']);
+                            $d2 = new DateTime();
+                            if($d1 < $d2)
+                            {
+                                $response = array("status" => "error",'class'=>'error', "status_code" => '400', 'msg' =>"Your account expired. Please contact to admin.");
+                                $this->outputError($response);                    
+                            }
+                        
+                        $loginUser = new User();
+                        $loginUser->updateOneColumn('ld_id',$user['item']['ld_id'],array('ld_last_login'=>date("Y-m-d H:i:s",time())));
+                       
+                        $loggedInUser = new User();
+                        $user =    $loggedInUser->findOne(
+                            array(
+                                'ld_user_name'=>array('=',$_POST['username'])
+                            )
+                            );
+                        
+                          unset($user['item']['ld_user_pwd']);
+                          if(!empty($user['item'][3]))
+                          {
+                              unset($user['item'][3]);
+                          }
+                          
+                        $_SESSION['LoggedUser'] = $user['item'];
+                        $user['item']['access_token'] = session_id();
+                        
+                        $response = array("status" => "success",'class'=>'success', "status_code" => '200', 'msg' =>"Logging in..",'user'=>$user['item']);
+                        $this->successLog->LogInfo('UserController:login#'.json_encode( array("status" => "success", "status_code" => '200', 'msg' => $_POST['username']." Logging in successfully!")));
+                        $this->outputSuccess($response);
+                    }
+                    else
+                    {
+                        $response = array("status" => "error",'class'=>'error', "status_code" => '400', 'msg' =>"Username or password invalid");
+                        $this->errorLog->LogInfo('UserController:login#'.json_encode($response));
+                        $this->outputError($response);                    
+                    }
+                    
+                }  catch (Exception $e)
+                {
+                    $response = array("status" => "error",'class'=>'error', "status_code" => '400', 'msg' =>$e->getMessage());
+                    $this->errorLog->LogInfo('UserController:login#'.json_encode($response));
+                    $this->outputError($response);                    
+                }
+            }
+            
+        }
+    public function logout()
+    {
+        session_start();
+
+        if(isset($_SESSION['LoggedUser']))
+        {
+            unset($_SESSION['LoggedUser']);
+        }
+
+        if(isset($_SESSION) && !empty($_SESSION['LoggedUser']))
+        {
+            $response = array("status" => "error",'class'=>'error', "status_code" => '400', 'msg' =>"User not logout.",'user'=>$_SESSION['LoggedUser']);
+            $this->errorLog->LogInfo('UserController:logout#'.json_encode($response));
+            $this->outputSuccess($response);
+        }
+        else {
+            $response = array("status" => "success", "status_code" => '200', 'msg' =>"User logout successfully..");
+            $this->successLog->LogInfo('UserController:Logout#'.json_encode($response));
+            $this->outputSuccess($response);
+        }
+    }
+        
+        /*
+         *  This is functin which checks if user is logged in or not using this 
+         * only we authenticate server side useer 
+         *  it takes 
+         * @Params  as header / post/get value in access_taken key which would be 
+         *  previously store when user login in frontend  data  storeage
+         * 
+         */
+        
+	public function loginCheck( $request ) {
+                $json = json_encode( $request->parameters );
+                $jsonObj = json_decode($json);
+                
+                if(!empty($request->parameters['access_token']))
+                {
+                    $auth_token = $request->parameters['access_token'];
+                }
+                
+                
+                if(!empty($request->parameters['requiresLogin']) &&$request->parameters['requiresLogin'] )
+                {
+                   
+                    if(!empty($auth_token))
+                        {
+                            session_id($auth_token);
+                            session_start();
+                            $user  = new User();
+
+                            if(!empty($_SESSION['LoggedUser']))
+                            {      
+                                $loggedInUser = $user->find(
+                                            array(
+                                                'ld_id'=>array('=',$_SESSION['LoggedUser']['ld_id'])
+                                            )
+                                        );
+                                
+                                
+                                if(isset($loggedInUser['item']))
+                                {
+                                    if( $request->parameters['permissionType']=='any')
+                                    {
+                                        $response = array('login_session_id'=> session_id(),"status" => "success",'class'=>'success', "status_code" => '200', 'msg' =>"Logging in..",'user'=>$loggedInUser['item']);
+                                        $this->successLog->LogInfo('UserController:LoginCheck#'.json_encode(array('login_session_id'=> session_id(),"status" => "success",'class'=>'success', "status_code" => '200', 'msg' =>" User Logging in..")));
+                                        $this->outputSuccess($response);
+                                    }
+                                    else
+                                    {
+                                        if( in_array($loggedInUser['item']['ld_role'], $request->parameters['requiredPermissions']))
+                                       {
+                                            $response = array('login_session_id'=> session_id(),"status" => "success",'class'=>'success', "status_code" => '200', 'msg' =>"Logging in..",'user'=>$loggedInUser['item']);
+                                           $this->successLog->LogInfo('UserController:LoginCheck#'.json_encode(array('login_session_id'=> session_id(),"status" => "success",'class'=>'success', "status_code" => '200', 'msg' =>"User Logging in..")));
+                                            $this->outputSuccess($response);
+                                            
+                                       }
+                                       else
+                                       {
+                                            $response = array("status" => "error", "status_code" => '403', 'msg' =>"You role has no access to this action");
+                                           $this->errorLog->LogInfo('UserController:LoginCheck#'.json_encode($response));
+                                           $this->outputError($response);                    
+                                       }
+                                    }    
+                                    
+                                }
+                                else
+                                {
+   
+                                    $response = array("status" => "error", "status_code" => '403', 'msg' =>"You have no access to this action");
+                                    $this->errorLog->LogInfo('UserController:LoginCheck#'.json_encode($response));
+                                    $this->outputError($response);                    
+
+                                }
+
+                            }
+                            else
+                            {
+                                    $response = array("status" => "error", "status_code" => '401', 'msg' =>"Unable to login");
+                                    $this->errorLog->LogInfo('UserController:LoginCheck#'.json_encode($response));
+                                    $this->outputError($response);                    
+                            }
+                        }
+                        else
+                        {
+                            $response = array("status" => "error", "status_code" => '401', 'msg' =>"Unable to login");
+                            $this->outputError($response);                    
+                        }
+                     $this->successLog->LogInfo('UserController:LoginCheck#'.json_encode(array("status" => "error", "status_code" => '200', 'msg' =>"login successfully.")));
+                }
+                else
+                {
+                        $response = array("status" => "error", "status_code" => '401', 'msg' =>"Unable to login");
+                        $this->errorLog->LogInfo('UserController:LoginCheck#'.json_encode(array("status" => "error", "status_code" => '401', 'msg' =>"Unable to login")));
+                        $this->outputError($response);                    
+                }
+        }
+        
+        /*
+         *  To block user from list of users  when click on the button in actions column 
+         */
+        
+	public function removeManager( $request ) {
+            $json = json_encode( $request->parameters );
+            $user  = new User();
+            if( isset($request->parameters['ld_id']) )
+            {
+                $result =  $user->updateOneColumn('ld_id',$request->parameters['ld_id'],array('ld_active'=>'0'));
+              
+                if($result)
+                {
+                    $response = array("status" => "success", "status_code" => '200', 'msg' =>"User blocked Successfully");
+                    $this->outputSuccess($response);
+                }
+                else
+                {
+                    $response = array("status" => "error", "status_code" => '400', 'msg' =>"Unable to block this user");
+                    $this->outputError($response);                    
+                }
+            }
+        }
+
+        /*
+         *   This accepts only user id and activate it with ls_isactive= 1;
+         */
+        
+	public function activateManager( $request ) {
+            $json = json_encode( $request->parameters );
+            $user  = new User();
+            if( isset($request->parameters['ld_id']) )
+            {
+                $result =  $user->updateOneColumn('ld_id',$request->parameters['ld_id'],array('ld_active'=>'1'));
+              
+                if($result)
+                {
+                    $response = array("status" => "success", "status_code" => '200', 'msg' =>"User activated Successfully");
+                    $this->outputSuccess($response);
+                }
+                else
+                {
+                    $response = array("status" => "error", "status_code" => '400', 'msg' =>"Unable to activate this user");
+                    $this->outputError($response);                    
+                }
+            }
+        }
+
+        /*
+         *   This function is to store user 
+         */
+	public function saveAccountManager( $request ) {
+        
+            $json = json_encode( $request->parameters );
+            $user  = new User();
+            
+            if(isset($request->parameters['ld_id']) && $request->parameters['scenario']=='update')
+            {
+                $user->scenario = "update";
+                $user->setAttributeValue('table_ld_id', $request->parameters['ld_id']);
+                $user->id = $request->parameters['ld_id'];
+
+            }
+            else
+            {
+                $user->scenario = "insert";
+                $ld_id = $user->getMaxPrimaryKey('icn_login_detail', 'ld_id');
+                $ld_id++;
+                $user->setAttributeValue('table_ld_id', $ld_id);
+                $user->id = $ld_id; 
+            }
+            
+         
+            $user->table_ld_user_type = 'AccountManager';
+            $user->table_ld_role = 'AccountManager';
+            $user->table_ld_active = 1;
+//            $user->table_ld_crud_isactive = ;
+            
+            foreach($request->parameters  as $k=>$v)
+            {   
+                $user->setAttributeValue("table_".$k,$v);                  
+            }    
+           
+           $user->setAttributeValue('table_account_validity', date('Y-m-d H:i:s',  strtotime($user->table_account_validity)));
+          //  $password = rand(3000,9999 );
+            $user->setAttributeValue('table_ld_user_pwd', 'icon');
+            
+            if($user->scenario =='insert')
+            {
+                $userName = explode("@", $user->table_ld_email_id);
+                if(!empty($userName[0]))
+                {
+                    $userName = $userName[0].rand(1000, 9999);
+                }
+                
+                $user->setAttributeValue('table_ld_user_name', $userName);
+            }    
+
+             /*
+              *  saves users data which we assigned already to $user object with help of base model
+              */   
+            
+            
+                if($user->scenario == 'insert')
+                {
+                    $user->setAttributeValue('table_ld_created_by',Helper::getSiteUserId()); 
+                    $user->setAttributeValue('table_ld_created_on',Helper::getDate()); 
+                }
+                else {
+
+                    $user->setAttributeValue('table_ld_modified_by',Helper::getSiteUserId()); 
+                    $user->setAttributeValue('table_ld_modified_on',Helper::getDate());                
+                }
+            
+            if( $user->save($user))
+            {
+                $storeUser = new StoreUser();
+                
+                
+                //$storeUser->removeAllStoresOfUser($user->table_ld_id);
+                
+                $storeUser->updateAll(array('su_ld_id'=>array(
+                    '=',$user->table_ld_id
+                )),
+                        array('su_crud_isactive'=>0));
+                
+                
+                
+                if(!empty($request->parameters['stores']))
+                {
+                    foreach ($request->parameters['stores'] as $store)
+                    {
+                        $storeUser = new StoreUser();
+                        $storeUser->scenario = "insert";
+                        $storeUser->setAttributeValue('table_su_st_id', $store['st_id']);
+                        $storeUser->setAttributeValue('table_su_ld_id', $user->table_ld_id);
+                 
+                        if($storeUser->scenario == 'insert')
+                        {
+                            $storeUser->setAttributeValue('table_su_created_by',Helper::getSiteUserId()); 
+                            $storeUser->setAttributeValue('table_su_created_on',Helper::getDate()); 
+                        }
+                        else {
+
+                            $storeUser->setAttributeValue('table_su_modified_by',Helper::getSiteUserId()); 
+                            $storeUser->setAttributeValue('table_su_modified_on',Helper::getDate());                
+                        }
+                        
+                        $storeUser->save($storeUser);
+
+                    }
+                }
+                 
+                
+                /// Mail sending to new created user on registered email id 
+                
+                $mail = new MailMe();
+                $mail->addAddress($user->table_ld_email_id, $user->table_ld_display_name);
+               if(!empty($user->scenario) && $user->scenario=='insert') 
+               {
+                    $response = array("status" => "success", "status_code" => '200', 'msg' =>"Account manager created successfully and temporary password sent to registered email");
+                   $this->successLog->LogInfo('UserController:SaveAccountManager#'.json_encode($response));
+                    $mail->Subject = 'Your account created successfully!';
+                    $html = $mail->getRenderedHTML("account_manager_welcom.php",array(
+                        'model'=>$user
+                    ));
+               }
+               else
+               {
+                    $response = array("status" => "success", "status_code" => '200', 'msg' =>"Account manager updated successfully");
+                   $this->successLog->LogInfo('UserController:SaveAccountManager#'.json_encode($response));
+                    $mail->Subject = 'Your account updated successfully!';
+                    $html = $mail->getRenderedHTML("account_manager_update.php",array(
+                        'model'=>$user
+                    ));
+               }
+               
+                $mail->msgHTML($html);
+                $mail->sendMail();
+                
+                
+                $this->outputSuccess($response);
+                $this->successLog->LogInfo('UserController:SaveAccountManager#'.json_encode(array("status" => "error", "status_code" => '200', 'msg' =>"User saved successfully.")));
+            }
+            else {
+                $response = array("status" => "error", "status_code" => '400', 'msg' =>"User Could not saved");
+                $this->errorLog->LogInfo('UserController:SaveAccountManager#'.json_encode($response));
+                $this->outputError($response);
+
+            }
+	    
+        }
+        
+        
+        /*
+         *  To get all account manager query from model's function and return to the angular client 
+         * 
+         * which creates  grid in account manager grid 
+         * 
+         */
+	public function findAll($request ) {
+		
+            $json = json_encode( $request->parameters );
+            $jsonObj = json_decode($json);
+            $user = new User();
+            
+            $limit = intval( $request->parameters['perPageItems'] ); 
+            $offset = intval( $request->parameters['perPageItems'] * $request->parameters['currentPage'] );
+            if($offset != 0)  
+            {
+                $offset = $offset-intval( $request->parameters['perPageItems'] );
+            }
+            
+                $users = $user->findAll(
+                     [
+                         'ld_user_type'=>array('=',$request->parameters['userType']),
+                       //  'ld_isactive   '=>array('=',1),
+                     ],
+                     ['limit'=>$limit,'offset'=>$offset,'order'=>'ld_id desc']
+                 );
+                
+                $usertWithStores = array();
+                foreach($users['items'] as $u)
+                {
+                    $stores = $user->findBySql("SELECT * FROM icn_store WHERE  st_id IN(  SELECT su_st_id FROM `icn_store_user` WHERE su_crud_isactive = 1 AND  su_ld_id = :ld_id)",
+                                array(":ld_id"=>$u['ld_id'])
+                            );
+                    
+                    $u['stores'] = $stores;
+                    
+                    $d1 = new DateTime($u['account_validity']);
+                    $d2 = new DateTime();
+                    if($d1 < $d2)
+                    {
+                        $u['validity_status'] = "Expired";
+                   }
+                    else {
+                        $u['validity_status'] = "Active";
+
+                    }
+
+                    $usertWithStores [] = $u;
+                    
+                }
+                $users['items'] = $usertWithStores;
+                
+            $response = array("status" => "success", "status_code" => '200', 'data' =>$users);
+           $this->successLog->LogInfo('UserController:findAll#'.json_encode(array("status" => "success", "status_code" => '200','msg' =>"Records found successfully!")));
+
+            $this->outputSuccess($response);
+        }
+        
+        
+        /*
+         *  This accept 
+         * @param = account manager id 
+         *  which get find from db and its all details send to angular client 
+         * 
+         */
+        
+	public function findByPk( $request ) {
+		
+            $json = json_encode( $request->parameters );
+            $jsonObj = json_decode($json);
+            $user = new User();
+            $model =  $user->findByPk('ld_id',$request->parameters['ld_id']);
+            $storeUser = new StoreUser;
+            
+             $stores =     $storeUser->findAll(
+                        array(
+                            'su_ld_id'=>['=',$model['ld_id']],
+                         'su_crud_isactive   '=>array('=',1)
+                        ),
+                        array(),
+                     array('su_st_id','su_ld_id')
+                    
+                    );
+            
+             $storeItems = array();
+             if(!empty($stores['items']))
+             {
+                 
+                 foreach ($stores['items'] as $storeitem)
+                 {
+                     $storeItems[] = array(
+                            'st_id'=>$storeitem['su_st_id'],
+                      //      'st_name'=>$storeitem['']
+                            );
+                 }
+                 
+             }
+             
+             
+            
+            if(!empty($model))
+            {
+                $model['stores'] = $storeItems;
+                $model['account_validity'] = date("d-m-Y H:i:s",strtotime($model['account_validity']));
+                $response = array("status" => "success", "status_code" => '200', 'data' =>$model,'stores'=>$stores['items']);
+                $this->successLog->LogInfo('UserController:findBy#'.json_encode( array("status" => "error", "status_code" => '400', 'msg' =>"Record found successfully!")));
+                $this->outputSuccess($response);
+
+            }
+            else {
+
+                $response = array("status" => "error", "status_code" => '400', 'msg' =>"Record not found!");
+                $this->errorLog->LogInfo('UserController:findByPk#'.json_encode($response));
+                $this->outputError($response);
+
+            }
+        }
+        
+        
+        public function EmailValid($request)
+        {
+            
+            $json = json_encode( $request->parameters );
+            $jsonObj = json_decode($json);
+            
+            $user = new User();
+            
+            $users = $user->findAll(
+                    array(
+                        'ld_email_id'=>['=',$jsonObj->email]
+                    )
+                    );
+            
+
+            if($users['totalItemsFound']==0)
+            {
+                $response = array("status" => "success", "status_code" => '200', 'isValid' => true );
+                $this->successLog->LogInfo('UserController:EmailValid#'.json_encode( $response));
+                $this->outputSuccess($response);
+            }
+            else
+            {
+                $response = array("status" => "success", "status_code" => '400', 'isValid' => false );
+                $this->errorLog->LogInfo('UserController:EmailValid#'.json_encode($response));
+                $this->outputSuccess($response);                
+            }
+            
+        }
+        
+        
+        /*
+         *   Forgot password angular client send email and username 
+         * $param = email, username 
+         * 
+         * which check if both matched with single account and then send its password to given email 
+         * if everything is valid otherwise it will send error message
+         * 
+         */
+        
+        public function forgotPassword($request)
+        {
+            $json = json_encode( $request->parameters );
+            $jsonObj = json_decode($json);
+            
+            $user = new User();
+            
+            $rand = rand(7000, 15000);
+
+              $foundUser = $user->find(array(
+                  'ld_email_id'=>array('=',$jsonObj->email),
+                  'ld_user_name'=>array('=',$jsonObj->username)
+              ));
+            
+              
+            
+           if( $foundUser['totalItemsFound'])
+            {
+//                $result =  $user->updateOneColumn('ld_email_id',"'$jsonObj->email'",array('ld_user_pwd'=>$rand));
+  
+              
+               if($foundUser['totalItemsFound'])
+                {
+                    $mail = new MailMe();
+                   
+                    $mail->addAddress($foundUser['item']['ld_email_id'], $foundUser['item']['ld_display_name']);
+                 
+                        $mail->Subject = 'Your password recovered!';
+                        
+                        $foundUser = $user->find(array(
+                                'ld_email_id'=>array('=',$jsonObj->email)
+                            ));
+
+                        
+                        $html = $mail->getRenderedHTML("forgot_password.php",array(
+                            'model'=>(object)$foundUser['item']
+                        ));
+                  
+                    $mail->msgHTML($html);
+                    $mail->sendMail();
+
+                    $response = array("status" => "success", "status_code" => '200','msg'=>'Please check your email inbox.');
+                    $this->successLog->LogInfo('UserController:forgotPassword#'.json_encode( $response));
+                    $this->outputSuccess($response);
+                    
+            }
+            else
+            {
+                $response = array("status" => "error", "status_code" => '400','msg'=>'could not update password please contact admin.');
+                $this->errorLog->LogInfo('UserController:forgotPassword#'.json_encode($response));
+                $this->outputError($response);                
+            }
+         
+           }
+           else
+           {
+                $response = array("status" => "error", "status_code" => '400','msg'=>'Could not match username and registered email.');
+               $this->errorLog->LogInfo('UserController:forgotPassword#'.json_encode($response));
+                $this->outputError($response);                
+           
+           }
+           
+        }
+        
+        /*
+         *  Change password will need to userd must logged in 
+         * user details get matched anad then only
+         */
+        
+        public function changePassword($request)
+        {
+            $json = json_encode( $request->parameters );
+            $jsonObj = json_decode($json);
+            $user = new User();
+            
+
+            session_id($jsonObj->access_token);
+            session_start();
+            
+            if(!empty($_SESSION['LoggedUser']))
+            {
+                $foundUser = $user->find(array(
+                    'ld_id'=>array('=',$_SESSION['LoggedUser']['ld_id'])
+                ));
+
+
+               if( $foundUser['totalItemsFound'])
+                {
+                   if($foundUser['item']['ld_user_pwd'] != $jsonObj->old_password )
+                   {
+
+                        $response = array("status" => "error", "status_code" => '400','msg'=>'Old password does not match.');
+                         $this->outputError($response);                
+   
+                   }
+                   
+                    $result =  $user->updateOneColumn('ld_id',$_SESSION['LoggedUser']['ld_id'],array('ld_user_pwd'=>$jsonObj->new_password));
+
+                    if($result)
+                    {
+                        $mail = new MailMe();
+
+                        $mail->addAddress($foundUser['item']['ld_email_id'], $foundUser['item']['ld_display_name']);
+
+                            $mail->Subject = 'Your password recovered!';
+
+                            $foundUser = $user->find(array(
+                                    'ld_email_id'=>array('=',$foundUser['item']['ld_email_id'])
+                                ));
+
+
+                            $html = $mail->getRenderedHTML("forgot_password.php",array(
+                                'model'=>(object)$foundUser['item']
+                            ));
+
+                        $mail->msgHTML($html);
+                        $mail->sendMail();
+
+                        $response = array("status" => "success", "status_code" => '200','msg'=>'Password updated successfully. Please check your mail.');
+                        $this->successLog->LogInfo('UserController:changePassword#'.json_encode( $response));
+                        $this->outputSuccess($response);
+
+                }
+                else
+                {
+                    $response = array("status" => "error", "status_code" => '400','msg'=>'could not update password please contact admin.');
+                    $this->errorLog->LogInfo('UserController:changePassword#'.json_encode($response));
+                    $this->outputError($response);                
+                }
+
+               }
+               else
+               {
+                    $response = array("status" => "error", "status_code" => '400','msg'=>'could not update password please contact admin.');
+                   $this->errorLog->LogInfo('UserController:changePassword#'.json_encode($response));
+                    $this->outputError($response);                
+
+               }
+            }
+        }
+        
+        
+        
+        public function checkUnique($request)
+        {
+            $json = json_encode( $request->parameters );
+            $jsonObj = json_decode($json);
+            $user = new User();
+            
+            if($jsonObj->scenario == 'insert')
+            {
+                $sql = "SELECT * FROM {$jsonObj->table} where  BINARY lower({$jsonObj->column}) = :column_value";
+                      
+                $users = $user->findBySql($sql,
+                        array(
+                            ":column_value"=>strtolower(preg_replace('/\s+/', ' ',trim($jsonObj->value))),
+                            ));
+
+                if($users['totalItemsFound'] == 0) 
+                {
+                    $response = array("status" => "success", "status_code" => '200', 'isValid' => true );
+                    $this->successLog->LogInfo('UserController:checkUnique#'.json_encode($response));
+                    $this->outputSuccess($response);
+                }
+                else
+                {
+                    $response = array("status" => "success", "status_code" => '200', 'isValid' => false );
+                    $this->successLog->LogInfo('UserController:checkUnique#'.json_encode($response));
+                    $this->outputSuccess($response);                
+                }
+                
+            }
+            
+            else if($jsonObj->scenario == 'update') {
+
+                $sql = "SELECT * FROM {$jsonObj->table} where  BINARY lower({$jsonObj->column}) = :column_value";
+                      
+                $users = $user->findBySql($sql,
+                        array(
+                            ":column_value"=>strtolower(preg_replace('/\s+/', ' ',trim($jsonObj->value))),
+                            ));
+               
+                    
+                if($users['totalItemsFound']==1 && !empty($users['items']) && !empty($users['items'][0]['id']) &&  $users['items'][0]['id']  == $jsonObj->objectId)
+                {
+    
+                    $response = array("status" => "success", "status_code" => '200', 'isValid' => true );
+                    $this->successLog->LogInfo('UserController:checkUnique#'.json_encode($response));
+                    $this->outputSuccess($response);
+                    
+                }else if($users['totalItemsFound']==0 && empty($users['items']))
+                {
+                    $response = array("status" => "success", "status_code" => '200', 'isValid' => true );
+                    $this->successLog->LogInfo('UserController:checkUnique#'.json_encode($response));
+                    $this->outputSuccess($response);
+                    
+                }
+                else
+                {
+                    $response = array("status" => "success", "status_code" => '200', 'isValid' => false );
+                    $this->successLog->LogInfo('UserController:checkUnique#'.json_encode($response));
+                    $this->outputSuccess($response);                
+                }
+
+            
+            
+        }
+            
+        }
+        
+}
+?>

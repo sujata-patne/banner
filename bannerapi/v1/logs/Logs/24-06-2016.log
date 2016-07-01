@@ -1,0 +1,10 @@
+2016-06-24 13:03:43 - INFO  --> UserController:LoginCheck#{"status":"error","status_code":"403","msg":"You role has no access to this action"} 
+2016-06-24 13:03:43 - INFO  --> UserController:findAll#{"status":"success","status_code":"200","msg":"Records found successfully!"} 
+2016-06-24 13:03:46 - INFO  --> UserController:login#{"status":"success","status_code":"200","msg":"banneradmin Logging in successfully!"} 
+2016-06-24 13:03:46 - INFO  --> UserController:LoginCheck#{"login_session_id":"tkcn0tgb36gd61gvp0jl59oqu0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-24 13:03:48 - INFO  --> UserController:LoginCheck#{"login_session_id":"tkcn0tgb36gd61gvp0jl59oqu0","status":"success","class":"success","status_code":"200","msg":"User Logging in.."} 
+2016-06-24 13:03:48 - INFO  --> UserController:findAll#{"status":"success","status_code":"200","msg":"Records found successfully!"} 
+2016-06-24 13:03:53 - INFO  --> UserController:findBy#{"status":"error","status_code":"400","msg":"Record found successfully!"} 
+2016-06-24 13:03:59 - INFO  --> UserController:SaveAccountManager#{"status":"success","status_code":"200","msg":"Account manager updated successfully"} 
+2016-06-24 13:04:04 - INFO  --> UserController:findAll#{"status":"success","status_code":"200","msg":"Records found successfully!"} 
+2016-06-24 13:04:07 - INFO  --> UserController:findBy#{"status":"error","status_code":"400","msg":"Record found successfully!"} 

@@ -1,0 +1,102 @@
+directives.directive('clientsFormGrid', ['$appLocation','Store','Client','UserService','$location','alertService',function ($appLocation,Store,Client,UserService,$location,alertService) {
+        return {
+            templateUrl: CONFIG.prepareViewTemplateUrl('directives/clients_form_grid'),
+            scope:{
+                id:"="
+            },
+            controller: function ($scope)
+            {
+               $scope.storeList =[];
+                $scope.LoggedUser = null;
+                $scope.LoggedUser = UserService.getCurrentUser();
+
+                Store.findStoreDeliveries($scope.LoggedUser, function (res) {
+
+                    if(typeof res.data.message.storeDetails.items  != 'undefined')
+                    {
+                        $scope.storeList = res.data.message.storeDetails.items;
+                                    
+                    }
+                });
+
+
+
+            $scope.grid = {};
+            if(typeof $scope.id != 'undefined' && $scope.id != null)
+                {
+
+                    Client.findOne({id:$scope.id},function(res)
+                    {
+                        if(res.data.message.status == 'success')
+                        {
+                             $scope.client = res.data.message.clientsDetails;
+                             $scope.client.contact_no = parseInt($scope.client.contact_no);
+                             $scope.client.scenario = "update";
+                        }
+                        else
+                        {
+                            $scope.client = {scenario:'insert'};
+                            $scope.client.scenario = "insert";
+                        }
+                    });
+                    
+                }
+                else
+                {
+                    $scope.client = {scenario:'insert'};
+
+                }
+                
+                $scope.goToClients = function()
+                {
+                    $location.url("external-clients-list");
+                };
+                
+                $scope.grid.title = "Account Managers";
+                $scope.submitted = false;
+                $scope.create = function (form)
+                {
+                    form.submitted = true;
+                    if (form.$valid)
+                    {
+                        Client.save($scope.client,function(res){
+                            $scope.client = {};
+                            form.$setPristine();
+                            form.submitted = false;
+                            alertService.add(res.data.message.status, res.data.message.msg);
+                            $location.url('external-clients-list?alert=true');
+                        });
+                    }
+                };
+
+                $scope.removeManager = function (index)
+                {
+                    $scope.managers.splice(index, 1);
+                };
+                
+                $scope.selectAllStores = function ()
+                {
+                    if ($scope.storeSelectAll)
+                    {
+                        $scope.client.stores = $scope.storeList;
+                    }
+                    else
+                    {
+                        $scope.client.stores = null;
+                    }
+                };
+                
+                
+                $scope.reset = function(form)
+                {
+                    form.$setPristine();
+                    form.submitted = false;
+                    $scope.client = {};
+                    $scope.client.scenario = 'insert';
+                    alertService.reset();
+                    $location.url('external-clients');
+                };
+                
+            }
+        };
+    }]);

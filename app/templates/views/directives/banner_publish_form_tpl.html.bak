@@ -1,0 +1,320 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Publish Banner
+
+            </div>
+            <div class="panel-body"  ng-init="bannerPublish.banner_id = id">
+
+                <form name="bannerPublishFrm" ng-submit="save(bannerPublishFrm)"  enctype="multipart/form-data"  novalidate >
+
+                    <div class="row" style="margin-bottom: 20px;">
+                        <div class ="col-md-6">
+                            <h4 class="help-block">{{banner.details.campaign_name}}  >  {{banner.banner_name}}</h4>
+                        </div>
+
+                        <div class="col-md-4 pull-right">
+                            <img  style="max-height: 100px; " class="img-responsive pull-right" ng-src="{{$root.getBannerImage(banner.images.items[0].image_name)}}" />
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <hr>
+                                    
+                    <div class="row">
+                        
+                        <div class="col-md-6">
+
+                            <div class="form-group row"> 
+                                <span class="col-md-4">     
+                                    <label >Select Site<span class="error"> *</span></label>
+                                </span>
+                                <div class="col-md-8">  
+
+                                    <select ng-change="siteChange()"  name="site" class="form-control"  ng-model="bannerPublish.site" ng-options="x.st_name  for x in storeList track by x.st_id" required>
+                                        <option value="" selected="selected">Select Site</option>
+                                    </select>
+
+                                    <span ng-if="bannerPublishFrm.site.$invalid && bannerPublishFrm.site.$dirty || bannerPublishFrm.submitted">
+                                        <span ng-if="bannerPublishFrm.site.$error.required" class="error">Site is required.</span>
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group row"> 
+                                <span class="col-md-4">     
+                                    <label >Select Banner Place<span class="error"> *</span></label>
+                                </span>
+                                <div class="col-md-8">  
+
+                                    <select name="place" class="form-control"  ng-model="bannerPublish.place" ng-options="x.ppp_comments  for x in placeList track by x.ppp_id" required>
+                                        <option value="" selected="selected">Select Banner Place</option>
+                                    </select>
+                                    <span ng-if="bannerPublishFrm.place.$invalid && bannerPublishFrm.site.$dirty || bannerPublishFrm.submitted">
+                                        <span ng-if="bannerPublishFrm.place.$error.required" class="error">Place is required.</span>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group row"> 
+                                <span class="col-md-4">     
+                                    <label >Select Page<span class="error"> *</span></label>
+                                </span>
+                                <div class="col-md-8">  
+
+                                    <select ng-change="pageChange()"  name="bannerPublishPage" class="form-control"  ng-model="bannerPublish.page" ng-options="x.pp_page_title  for x in pageList track by x.pp_id" required>
+                                        <option value="" selected="selected">Select Page</option>
+                                    </select>
+                                    <span ng-if="bannerPublishFrm.bannerPublishPage.$invalid && bannerPublishFrm.bannerPublishPage.$dirty || bannerPublishFrm.submitted">
+                                        <span ng-if="bannerPublishFrm.bannerPublishPage.$error.required" class="error">Page is required.</span>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <fieldset class="col-md-12">
+                            <legend>Advance Settings</legend>
+
+                            <fieldset class="col-md-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        Date, Day & Time
+                                    </div>
+
+                                    <div class="panel-body">
+                                        <div class="form-group col-md-4" >
+                                            <span class="col-md-4">     
+                                                <label >Start Date <span class="error"> *</span></label>
+                                            </span>
+                                            <div class="col-md-8"> 
+                                                <input datetime-picker  data-date-format="{{$root.getDateFormatString()}}" readonly="true" type="text" name="start_date" class="form-control datetimepicker"  placeholder="Start Date" ng-model="bannerPublish.start_date" data-scenario="{{bannerPublish.scenario}}" required future-date-only>
+                                                <span ng-if="bannerPublishFrm.start_date.$invalid && bannerPublishFrm.start_date.$dirty || bannerPublishFrm.submitted">
+                                                    <span ng-if="bannerPublishFrm.start_date.$error.required" class="error"> Start date is required.</span>
+                                                    <span ng-if="bannerPublishFrm.start_date.$error.elementLength" class="error">Start date is invalid.</span>
+                                                    <span ng-if="bannerPublishFrm.start_date.$error.futureonly" class="error">Start date & time should be greater than current date & time.</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <span class="col-md-4">     
+                                                <label >End Date <span class="error"> *</span></label>
+                                            </span>
+                                            <div class="col-md-8"> 
+                                                <input datetime-picker  data-date-format="{{$root.getDateFormatString()}}" readonly="true" type="text" name="end_date" class="form-control datetimepicker"  placeholder="End Date" ng-model="bannerPublish.end_date" required chek-min-date compare='bannerPublishstart_date' >
+                                                <span ng-if="bannerPublishFrm.end_date.$invalid && bannerPublishFrm.end_date.$dirty || bannerPublishFrm.submitted">
+                                                    <span ng-if="bannerPublishFrm.end_date.$error.required" class="error"> End date is required.</span>
+                                                    <span ng-if="bannerPublishFrm.end_date.$error.elementLength" class="error">End date is invalid.</span>
+                                                </span>
+                                                <span ng-if="bannerPublishFrm.end_date.$error.minDate" class="error">End date is invalid.</span>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <span class="col-md-4">     
+                                                <label >Time Slot </label>
+                                            </span>
+                                            <div class="col-md-8"> 
+                                                <select multiple   name="timeslot" class="form-control"  ng-model="bannerPublish.timeslot" ng-options="x.cd_display_name  for x in timeslotList track by x.cd_id" >
+                                                    <option value="" ng-click="bannerPublish.timeslot = timeslotList" ng-selected ="{{!edit}}" >All</option>
+                                                </select>ng-selected
+                                                <span ng-if="bannerPublishFrm.timeslot.$invalid && bannerPublishFrm.timeslot.$dirty || bannerPublishFrm.submitted">
+                                                    <span ng-if="bannerPublishFrm.timeslot.$error.required" class="error"> Time slot is required.</span>
+                                                    
+                                                </span>
+           
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+
+                            <fieldset class="col-md-12" >
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        For
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="form-group col-md-3">
+                                            
+                                            <label><input type="radio" name="banner_for" ng-model="bannerPublish.user_type"  value="1"> Subscribed User </label>
+                                        </div>
+
+
+                                        <div class="form-group col-md-3">
+                                            <label><input type="radio"  name="banner_for" ng-model="bannerPublish.user_type"  value="0"> Unsubscribed User </label>
+                                        </div>
+
+
+                                        <div class="form-group col-md-3">
+                                            <label><input type="radio"  name="banner_for" ng-model="bannerPublish.user_type"  value="2"> Both</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+
+
+                            <fieldset class="col-md-12">
+                                <legend>More</legend>
+
+                                <fieldset class="col-md-12" >
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            Geo Location
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="col-md-6">
+
+                                                <div class="form-group row"> 
+                                                    <span class="col-md-4">     
+                                                        <label >Operators<span class="error"> *</span></label>
+                                                    </span>
+                                                    <div class="col-md-8">                                                  
+
+                                                        <select multiple ng-change="operatorChange()"  name="operator" class="form-control"  ng-model="bannerPublish.operator" ng-options="x.display_name  for x in operatorList track by x.id" required>
+                                                            <option value="" ng-click="bannerPublish.operator = operatorList" selected="selected">All</option>
+                                                        </select>
+
+                                                        <span ng-if="bannerPublishFrm.operator.$invalid && bannerPublishFrm.site.$dirty || bannerPublishFrm.submitted">
+                                                            <span ng-if="bannerPublishFrm.operator.$error.required" class="error">Operator is required.</span>
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+
+                                                <div class="form-group row"> 
+                                                    <span class="col-md-4">     
+                                                        <label >Circle<span class="error"> *</span></label>
+                                                    </span>
+                                                    <div class="col-md-8">  
+
+                                                        <select multiple ng-change="circleChange()"  name="circle" class="form-control"  ng-model="bannerPublish.circle" ng-options="x.cc_circle_name  for x in circleList track by x.cc_circle_id" required>
+                                                            <option value="" selected="selected" ng-click="bannerPublish.circle = circleList" >All</option>
+                                                        </select>
+
+                                                        <span ng-if="bannerPublishFrm.circle.$invalid && bannerPublishFrm.site.$dirty || bannerPublishFrm.submitted">
+                                                            <span ng-if="bannerPublishFrm.circle.$error.required" class="error">Circle is required.</span>
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </fieldset>
+
+<!--                                <fieldset class="col-md-12" >
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            Device / Browser
+                                        </div>
+                                        <div class="panel-body">
+
+                                            <div class="col-md-6">
+
+                                                <div class="form-group row"> 
+                                                    <span class="col-md-4">     
+                                                        <label> <input type="radio" value="handset" name="deviceBroser" ng-model="bannerPublish.deviceBroser"> Handset Brand<span class="error"> *</span></label>
+                                                    </span>
+                                                    <div class="col-md-8">  
+
+                                                        <select multiple  ng-disabled="bannerPublish.deviceBroser == 'group'" ng-change="handsetBrandChange()"  name="handset_brand" class="form-control"  ng-model="bannerPublish.handset_brand" ng-options="x.handset  for x in handsetList track by x.dc_id" >
+                                                            <option value="" selected="selected" ng-click="bannerPublish.handset_brand = handsetList">All</option>
+                                                        </select>
+
+                                                        <span ng-if="bannerPublishFrm.handset_brand.$invalid && bannerPublishFrm.site.$dirty || bannerPublishFrm.submitted">
+                                                            <span ng-if="bannerPublishFrm.handset_brand.$error.required" class="error">Handset Brand is required.</span>
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="form-group row"> 
+                                                    <span class="col-md-4">     
+                                                        <label > Operating System</label>
+                                                    </span>
+                                                    <div class="col-md-8">  
+
+                                                        <select  ng-disabled="bannerPublish.deviceBroser == 'group'" multiple ng-change="operatingSystemChange()"  name="operating_system" class="form-control"  ng-model="bannerPublish.operating_system" ng-options="x.operatingSystem  for x in operatingSystemList track by x.dc_id" >
+                                                            <option value="" selected="selected"  ng-click="bannerPublish.operating_system=operatingSystemList" >All</option>
+                                                        </select>
+
+                                                        <span ng-if="bannerPublishFrm.operating_system.$invalid && bannerPublishFrm.site.$dirty || bannerPublishFrm.submitted">
+                                                            <span ng-if="bannerPublishFrm.operating_system.$error.required" class="error">Operating System is required.</span>
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-6" >
+
+                                                <div class="form-group row"> 
+                                                    <span class="col-md-4">                                                     
+                                                        <label > <input type="radio" value="group" name="deviceBroser" ng-model="bannerPublish.deviceBroser" > Handset Group</label>
+                                                    </span>
+                                                    <div class="col-md-8">  
+
+                                                        <select ng-disabled="bannerPublish.deviceBroser == 'handset'" ng-change="handsetBrandChange()"  name="handset_groud" class="form-control"  ng-model="bannerPublish.handset_group" ng-options="x.chgr_group_name  for x in handsetGroupList track by x.chgr_group_id">
+                                                            <option value="" selected="selected">None</option>
+                                                        </select>
+
+                                                        <span ng-if="bannerPublishFrm.handset_group.$invalid && bannerPublishFrm.site.$dirty || bannerPublishFrm.submitted">
+                                                            <span ng-if="bannerPublishFrm.handset_group.$error.required" class="error">Handset Group is required.</span>
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+
+                                                <div class="form-group row"> 
+                                                    <a href="#/add-group" target="_BLANK" class="">Create new handset group</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </fieldset>
+-->
+                            </fieldset>
+                        </fieldset>
+                    </div>
+
+                    <div class="cler clearfix"></div>
+                    <div class="clearfix row">
+                        <div class=" col-md-2 pull-right">
+                            <button type="submit"  class="btn btn-success">Submit</button>
+<!--                            <button type="reset" class="btn btn-warning" ng-click="reset(bannerPublishFrm)">Reset</button>
+                            -->
+                            
+                            <button type="button" ng-if="bannerPublish.scenario=='update' && bannerPublish.is_active == 1 " class="btn btn-danger" ng-click="remove()">Remove</button>
+                        </div>
+                    </div>
+
+
+
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
